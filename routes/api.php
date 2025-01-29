@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AiChatController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +17,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
+});
+
+// AI Chat Routes
+Route::middleware(['auth:sanctum'])->group(function () {
+    Route::post('/chat/send', [AiChatController::class, 'sendMessage']);
+    Route::get('/chat/history', [AiChatController::class, 'getChatHistory']);
 });
 
 

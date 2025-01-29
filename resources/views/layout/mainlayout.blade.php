@@ -116,6 +116,11 @@ echo $educationalOrganization->toScript();
             background-color: #f3f4f6;
             min-height: 100vh;
         }
+        .grecaptcha-badge {
+            visibility: hidden !important;
+            opacity: 0.1 !important;
+            bottom: 10px !important;
+        }
     </style>
 
     @yield('styles')

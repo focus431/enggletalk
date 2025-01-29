@@ -68,6 +68,9 @@
                   <!-- /Login with Google, Hotmail, and Apple Buttons -->
 
                   <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response-mentor">
+                  <div class="text-muted small mt-2">
+                    本網站受到 Google reCAPTCHA 保護，適用 Google <a href="https://policies.google.com/privacy" target="_blank">隱私權政策</a> 和 <a href="https://policies.google.com/terms" target="_blank">服務條款</a>。
+                  </div>
                 </form>
 
                 <!-- /Register Form -->
