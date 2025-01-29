@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /*.json$
+Disallow: /*.xml$
+
+Sitemap: https://enggletalk.com.tw/sitemap.xml

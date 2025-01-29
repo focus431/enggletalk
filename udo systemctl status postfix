@@ -1,0 +1,25 @@
+[0;1;32m●[0m opendkim.service - OpenDKIM DomainKeys Identified Mail (DKIM) Milter
+     Loaded: loaded (/lib/systemd/system/opendkim.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Fri 2024-11-15 06:52:44 UTC; 2min 23s ago
+       Docs: man:opendkim(8)
+             man:opendkim.conf(5)
+             man:opendkim-genkey(8)
+             man:opendkim-genzone(8)
+             man:opendkim-testadsp(8)
+             man:opendkim-testkey
+             http://www.opendkim.org/docs.html
+    Process: 3911 ExecStartPre=/bin/mkdir -m 750 -p /run/opendkim (code=exited, status=0/SUCCESS)
+    Process: 3915 ExecStartPre=/bin/chown opendkim:opendkim /run/opendkim (code=exited, status=0/SUCCESS)
+    Process: 3925 ExecStart=/usr/sbin/opendkim -x /etc/opendkim.conf (code=exited, status=0/SUCCESS)
+    Process: 3930 ExecStartPost=/bin/sleep 1 (code=exited, status=0/SUCCESS)
+   Main PID: 3929 (opendkim)
+      Tasks: 6 (limit: 2255)
+     Memory: 2.9M
+     CGroup: /system.slice/opendkim.service
+             └─3929 /usr/sbin/opendkim -x /etc/opendkim.conf
+
+Nov 15 06:52:43 enggletalk.com.tw systemd[1]: opendkim.service: Succeeded.
+Nov 15 06:52:43 enggletalk.com.tw systemd[1]: Stopped OpenDKIM DomainKeys Identified Mail (DKIM) Milter.
+Nov 15 06:52:43 enggletalk.com.tw systemd[1]: Starting OpenDKIM DomainKeys Identified Mail (DKIM) Milter...
+Nov 15 06:52:43 enggletalk.com.tw opendkim[3929]: OpenDKIM Filter v2.11.0 starting (args: -x /etc/opendkim.conf)
+Nov 15 06:52:44 enggletalk.com.tw systemd[1]: Started OpenDKIM DomainKeys Identified Mail (DKIM) Milter.

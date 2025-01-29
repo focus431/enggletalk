@@ -1,0 +1,69 @@
+[90m= [39m[
+    {#7378
+      +"[1mTables_in_mentor_database[22m": "[32mblogs[39m",
+    },
+    {#7387
+      +"[1mTables_in_mentor_database[22m": "[32mbookings[39m",
+    },
+    {#7388
+      +"[1mTables_in_mentor_database[22m": "[32mchat_rooms[39m",
+    },
+    {#7389
+      +"[1mTables_in_mentor_database[22m": "[32mclass_bookings[39m",
+    },
+    {#7390
+      +"[1mTables_in_mentor_database[22m": "[32mclass_schedules[39m",
+    },
+    {#7391
+      +"[1mTables_in_mentor_database[22m": "[32mcomments[39m",
+    },
+    {#7392
+      +"[1mTables_in_mentor_database[22m": "[32mcourses[39m",
+    },
+    {#7393
+      +"[1mTables_in_mentor_database[22m": "[32mfailed_jobs[39m",
+    },
+    {#7394
+      +"[1mTables_in_mentor_database[22m": "[32mmentor_courses[39m",
+    },
+    {#7395
+      +"[1mTables_in_mentor_database[22m": "[32mmessages[39m",
+    },
+    {#7396
+      +"[1mTables_in_mentor_database[22m": "[32mmigrations[39m",
+    },
+    {#7397
+      +"[1mTables_in_mentor_database[22m": "[32moauth_access_tokens[39m",
+    },
+    {#7398
+      +"[1mTables_in_mentor_database[22m": "[32moauth_auth_codes[39m",
+    },
+    {#7399
+      +"[1mTables_in_mentor_database[22m": "[32moauth_clients[39m",
+    },
+    {#7400
+      +"[1mTables_in_mentor_database[22m": "[32moauth_personal_access_clients[39m",
+    },
+    {#7401
+      +"[1mTables_in_mentor_database[22m": "[32moauth_refresh_tokens[39m",
+    },
+    {#7402
+      +"[1mTables_in_mentor_database[22m": "[32morders[39m",
+    },
+    {#7403
+      +"[1mTables_in_mentor_database[22m": "[32mpassword_resets[39m",
+    },
+    {#7404
+      +"[1mTables_in_mentor_database[22m": "[32mpayment_plans[39m",
+    },
+    {#7405
+      +"[1mTables_in_mentor_database[22m": "[32mpersonal_access_tokens[39m",
+    },
+    {#7406
+      +"[1mTables_in_mentor_database[22m": "[32mreviews[39m",
+    },
+    {#7407
+      +"[1mTables_in_mentor_database[22m": "[32musers[39m",
+    },
+  ]
+

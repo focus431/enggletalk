@@ -1,0 +1,1457 @@
+-- Logs begin at Wed 2023-12-13 14:30:05 UTC, end at Wed 2023-12-20 14:43:27 UTC. --
+Dec 20 13:22:01 enggletalk.com.tw CRON[717048]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:22:01 enggletalk.com.tw CRON[717049]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:22:01 enggletalk.com.tw CRON[717046]: pam_unix(cron:session): session closed for user root
+Dec 20 13:22:02 enggletalk.com.tw CRON[717047]: pam_unix(cron:session): session closed for user root
+Dec 20 13:22:17 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=185.195.201.148 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=229 ID=54321 PROTO=TCP SPT=13067 DPT=8888 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:22:37 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=92.63.197.89 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=35592 PROTO=TCP SPT=51685 DPT=50093 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:23:01 enggletalk.com.tw CRON[717070]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:23:01 enggletalk.com.tw CRON[717069]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:23:01 enggletalk.com.tw CRON[717071]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:23:01 enggletalk.com.tw CRON[717072]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:23:01 enggletalk.com.tw CRON[717069]: pam_unix(cron:session): session closed for user root
+Dec 20 13:23:01 enggletalk.com.tw CRON[717070]: pam_unix(cron:session): session closed for user root
+Dec 20 13:23:05 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.49.134 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=19600 PROTO=TCP SPT=45329 DPT=8501 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:23:28 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=104.221.195.4 DST=97.74.92.111 LEN=118 TOS=0x00 PREC=0x00 TTL=43 ID=32611 DF PROTO=UDP SPT=54579 DPT=11211 LEN=98 [0m
+Dec 20 13:23:32 enggletalk.com.tw sshd[706878]: pam_unix(sshd:session): session closed for user root
+Dec 20 13:23:32 enggletalk.com.tw systemd-logind[588]: Session 18980 logged out. Waiting for processes to exit.
+Dec 20 13:23:32 enggletalk.com.tw systemd[1]: session-18980.scope: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit session-18980.scope has successfully entered the 'dead' state.
+Dec 20 13:23:32 enggletalk.com.tw systemd-logind[588]: Removed session 18980.
+-- Subject: Session 18980 has been terminated
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A session with the ID 18980 has been terminated.
+Dec 20 13:23:40 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=185.142.236.38 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=111 ID=13145 PROTO=TCP SPT=26200 DPT=8094 WINDOW=39750 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:23:47 enggletalk.com.tw sshd[717108]: Accepted publickey for root from 36.227.47.105 port 49452 ssh2: RSA SHA256:J3sJ08aOj69gWx6jSZbUsr0HZ4NAMvWUF6+b84/dOX0
+Dec 20 13:23:47 enggletalk.com.tw sshd[717108]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 20 13:23:47 enggletalk.com.tw systemd[1]: Started Session 19094 of user root.
+-- Subject: A start job for unit session-19094.scope has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit session-19094.scope has finished successfully.
+-- 
+-- The job identifier is 106865.
+Dec 20 13:23:47 enggletalk.com.tw systemd-logind[588]: New session 19094 of user root.
+-- Subject: A new session 19094 has been created for user root
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 19094 has been created for the user root.
+-- 
+-- The leading process of the session is 717108.
+Dec 20 13:24:01 enggletalk.com.tw CRON[717212]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:24:01 enggletalk.com.tw CRON[717211]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:24:01 enggletalk.com.tw CRON[717213]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:24:01 enggletalk.com.tw CRON[717214]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:24:01 enggletalk.com.tw CRON[717211]: pam_unix(cron:session): session closed for user root
+Dec 20 13:24:01 enggletalk.com.tw CRON[717212]: pam_unix(cron:session): session closed for user root
+Dec 20 13:24:21 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.163.200 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=32616 PROTO=TCP SPT=58552 DPT=9001 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:24:22 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.49.134 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=25879 PROTO=TCP SPT=45329 DPT=9788 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:24:40 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=24.207.174.170 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=41 ID=23333 PROTO=TCP SPT=40705 DPT=23 WINDOW=26598 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:25:01 enggletalk.com.tw CRON[717242]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:25:01 enggletalk.com.tw CRON[717243]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:25:01 enggletalk.com.tw CRON[717241]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:25:01 enggletalk.com.tw CRON[717244]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:25:01 enggletalk.com.tw CRON[717245]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:25:01 enggletalk.com.tw CRON[717246]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 20 13:25:01 enggletalk.com.tw CRON[717241]: pam_unix(cron:session): session closed for user root
+Dec 20 13:25:01 enggletalk.com.tw CRON[717243]: pam_unix(cron:session): session closed for user root
+Dec 20 13:25:02 enggletalk.com.tw CRON[717242]: pam_unix(cron:session): session closed for user root
+Dec 20 13:25:07 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.151 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=59564 PROTO=TCP SPT=42025 DPT=14444 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:25:21 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=92.63.197.89 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=28581 PROTO=TCP SPT=51685 DPT=59079 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:25:40 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.49.158 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=13976 PROTO=TCP SPT=45346 DPT=11962 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:25:57 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=212.70.149.138 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=59254 DPT=39881 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:26:01 enggletalk.com.tw CRON[717347]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:26:01 enggletalk.com.tw CRON[717346]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:26:01 enggletalk.com.tw CRON[717348]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:26:01 enggletalk.com.tw CRON[717349]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:26:01 enggletalk.com.tw CRON[717346]: pam_unix(cron:session): session closed for user root
+Dec 20 13:26:01 enggletalk.com.tw CRON[717347]: pam_unix(cron:session): session closed for user root
+Dec 20 13:26:21 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=198.199.92.135 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=237 ID=54321 PROTO=TCP SPT=33569 DPT=1433 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:27:01 enggletalk.com.tw CRON[717370]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:27:01 enggletalk.com.tw CRON[717371]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:27:01 enggletalk.com.tw CRON[717372]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:27:01 enggletalk.com.tw CRON[717373]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:27:01 enggletalk.com.tw CRON[717370]: pam_unix(cron:session): session closed for user root
+Dec 20 13:27:01 enggletalk.com.tw CRON[717371]: pam_unix(cron:session): session closed for user root
+Dec 20 13:27:01 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.60.158 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=57829 PROTO=TCP SPT=45294 DPT=2763 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:27:03 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=34.105.171.193 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=246 ID=64975 PROTO=TCP SPT=45432 DPT=2049 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:27:37 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=92.63.197.210 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=14406 PROTO=TCP SPT=59568 DPT=5995 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:27:52 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=28996 PROTO=TCP SPT=48500 DPT=1967 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:28:01 enggletalk.com.tw CRON[717396]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:28:01 enggletalk.com.tw CRON[717395]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:28:01 enggletalk.com.tw CRON[717397]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:28:01 enggletalk.com.tw CRON[717398]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:28:01 enggletalk.com.tw CRON[717395]: pam_unix(cron:session): session closed for user root
+Dec 20 13:28:01 enggletalk.com.tw CRON[717396]: pam_unix(cron:session): session closed for user root
+Dec 20 13:28:16 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=60055 PROTO=TCP SPT=48500 DPT=7816 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:28:29 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=5.188.206.194 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=51887 PROTO=TCP SPT=46193 DPT=3180 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:28:41 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.163.110 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=26165 PROTO=TCP SPT=45473 DPT=18171 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:29:01 enggletalk.com.tw CRON[717420]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:29:01 enggletalk.com.tw CRON[717419]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:29:01 enggletalk.com.tw CRON[717421]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:29:01 enggletalk.com.tw CRON[717422]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:29:01 enggletalk.com.tw CRON[717419]: pam_unix(cron:session): session closed for user root
+Dec 20 13:29:01 enggletalk.com.tw CRON[717420]: pam_unix(cron:session): session closed for user root
+Dec 20 13:29:02 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=2692 PROTO=TCP SPT=48500 DPT=13909 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:29:19 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=94.102.61.5 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=54321 PROTO=TCP SPT=39662 DPT=12259 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:30:01 enggletalk.com.tw CRON[717445]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:30:01 enggletalk.com.tw CRON[717444]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:30:01 enggletalk.com.tw CRON[717443]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:30:01 enggletalk.com.tw CRON[717446]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:30:01 enggletalk.com.tw CRON[717447]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:30:01 enggletalk.com.tw CRON[717448]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 20 13:30:01 enggletalk.com.tw CRON[717443]: pam_unix(cron:session): session closed for user root
+Dec 20 13:30:01 enggletalk.com.tw CRON[717445]: pam_unix(cron:session): session closed for user root
+Dec 20 13:30:02 enggletalk.com.tw CRON[717444]: pam_unix(cron:session): session closed for user root
+Dec 20 13:30:02 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=92.63.197.89 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=48551 PROTO=TCP SPT=51685 DPT=49517 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:30:04 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.49.158 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=29523 PROTO=TCP SPT=45330 DPT=10168 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:30:17 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=192.241.238.32 DST=97.74.92.111 LEN=51 TOS=0x00 PREC=0x00 TTL=235 ID=54321 PROTO=UDP SPT=35249 DPT=161 LEN=31 [0m
+Dec 20 13:30:55 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=92.63.197.89 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=28705 PROTO=TCP SPT=51685 DPT=52256 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:31:01 enggletalk.com.tw CRON[717575]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:31:01 enggletalk.com.tw CRON[717574]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:31:01 enggletalk.com.tw CRON[717576]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:31:01 enggletalk.com.tw CRON[717577]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:31:01 enggletalk.com.tw CRON[717574]: pam_unix(cron:session): session closed for user root
+Dec 20 13:31:01 enggletalk.com.tw CRON[717575]: pam_unix(cron:session): session closed for user root
+Dec 20 13:31:07 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=162.142.125.133 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=33 ID=61333 PROTO=TCP SPT=57824 DPT=20613 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:31:32 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=59.98.137.216 DST=97.74.92.111 LEN=60 TOS=0x00 PREC=0x00 TTL=48 ID=11439 DF PROTO=TCP SPT=51838 DPT=23 WINDOW=5808 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:31:35 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.60.154 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=25273 PROTO=TCP SPT=45196 DPT=1900 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:32:01 enggletalk.com.tw CRON[717598]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:32:01 enggletalk.com.tw CRON[717597]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:32:01 enggletalk.com.tw CRON[717599]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:32:01 enggletalk.com.tw CRON[717600]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:32:01 enggletalk.com.tw CRON[717597]: pam_unix(cron:session): session closed for user root
+Dec 20 13:32:01 enggletalk.com.tw CRON[717598]: pam_unix(cron:session): session closed for user root
+Dec 20 13:32:16 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=116.103.228.151 DST=97.74.92.111 LEN=103 TOS=0x00 PREC=0x00 TTL=52 ID=18527 DF PROTO=UDP SPT=65292 DPT=8081 LEN=83 [0m
+Dec 20 13:32:27 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=46.101.81.255 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=237 ID=54321 PROTO=TCP SPT=48767 DPT=36666 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:32:38 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=110.7.52.148 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=47 ID=40677 PROTO=TCP SPT=48585 DPT=23 WINDOW=16681 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:33:01 enggletalk.com.tw CRON[717621]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:33:01 enggletalk.com.tw CRON[717622]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:33:01 enggletalk.com.tw CRON[717623]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:33:01 enggletalk.com.tw CRON[717624]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:33:02 enggletalk.com.tw CRON[717621]: pam_unix(cron:session): session closed for user root
+Dec 20 13:33:02 enggletalk.com.tw CRON[717622]: pam_unix(cron:session): session closed for user root
+Dec 20 13:33:06 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=32596 PROTO=TCP SPT=48500 DPT=65254 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:33:35 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.163.208 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=32486 PROTO=TCP SPT=56282 DPT=6639 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:34:01 enggletalk.com.tw CRON[717682]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:34:01 enggletalk.com.tw CRON[717681]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:34:01 enggletalk.com.tw CRON[717684]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:34:01 enggletalk.com.tw CRON[717683]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:34:01 enggletalk.com.tw CRON[717681]: pam_unix(cron:session): session closed for user root
+Dec 20 13:34:01 enggletalk.com.tw CRON[717682]: pam_unix(cron:session): session closed for user root
+Dec 20 13:34:02 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.165.184 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=19312 PROTO=TCP SPT=45414 DPT=15536 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:34:16 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=162.142.125.235 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=33 ID=37592 PROTO=TCP SPT=26581 DPT=27910 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:34:20 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.62.86 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=56897 PROTO=TCP SPT=43141 DPT=48617 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:34:36 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=91.132.146.181 DST=97.74.92.111 LEN=106 TOS=0x00 PREC=0x00 TTL=45 ID=20076 DF PROTO=UDP SPT=8000 DPT=1900 LEN=86 [0m
+Dec 20 13:35:01 enggletalk.com.tw CRON[717711]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:35:01 enggletalk.com.tw CRON[717712]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:35:01 enggletalk.com.tw CRON[717710]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:35:01 enggletalk.com.tw CRON[717713]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:35:01 enggletalk.com.tw CRON[717714]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:35:01 enggletalk.com.tw CRON[717715]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 20 13:35:01 enggletalk.com.tw CRON[717710]: pam_unix(cron:session): session closed for user root
+Dec 20 13:35:01 enggletalk.com.tw CRON[717712]: pam_unix(cron:session): session closed for user root
+Dec 20 13:35:02 enggletalk.com.tw CRON[717711]: pam_unix(cron:session): session closed for user root
+Dec 20 13:35:20 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.163.208 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=60181 PROTO=TCP SPT=56298 DPT=6799 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:35:37 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=172.104.138.223 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=237 ID=20364 PROTO=TCP SPT=18013 DPT=4444 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:35:41 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.165.5 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=54425 PROTO=TCP SPT=56325 DPT=14079 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:35:55 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=43620 PROTO=TCP SPT=48500 DPT=58063 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:36:01 enggletalk.com.tw CRON[717819]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:36:01 enggletalk.com.tw CRON[717818]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:36:01 enggletalk.com.tw CRON[717820]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:36:01 enggletalk.com.tw CRON[717821]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:36:01 enggletalk.com.tw CRON[717818]: pam_unix(cron:session): session closed for user root
+Dec 20 13:36:01 enggletalk.com.tw CRON[717819]: pam_unix(cron:session): session closed for user root
+Dec 20 13:36:31 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.163.142 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=32853 PROTO=TCP SPT=50681 DPT=5000 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:36:35 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=92.63.197.89 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=48631 PROTO=TCP SPT=51685 DPT=47985 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:37:01 enggletalk.com.tw CRON[717843]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:37:01 enggletalk.com.tw CRON[717842]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:37:01 enggletalk.com.tw CRON[717844]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:37:01 enggletalk.com.tw CRON[717845]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:37:01 enggletalk.com.tw CRON[717842]: pam_unix(cron:session): session closed for user root
+Dec 20 13:37:01 enggletalk.com.tw CRON[717843]: pam_unix(cron:session): session closed for user root
+Dec 20 13:37:04 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=16537 PROTO=TCP SPT=48500 DPT=23991 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:37:20 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.165.186 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=49400 PROTO=TCP SPT=45389 DPT=12487 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:37:55 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.146 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=11504 PROTO=TCP SPT=41967 DPT=11000 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:38:01 enggletalk.com.tw CRON[717867]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:38:01 enggletalk.com.tw CRON[717868]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:38:01 enggletalk.com.tw CRON[717869]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:38:01 enggletalk.com.tw CRON[717870]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:38:01 enggletalk.com.tw CRON[717867]: pam_unix(cron:session): session closed for user root
+Dec 20 13:38:01 enggletalk.com.tw CRON[717868]: pam_unix(cron:session): session closed for user root
+Dec 20 13:38:06 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.110 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=54996 PROTO=TCP SPT=42083 DPT=59389 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:38:35 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=50217 PROTO=TCP SPT=48500 DPT=24278 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:38:35 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=45.56.109.37 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=239 ID=54321 PROTO=TCP SPT=42327 DPT=9600 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:38:51 enggletalk.com.tw dovecot[649049]: imap-login: Login: user=<support>, method=PLAIN, rip=36.227.47.105, lip=97.74.92.111, mpid=717891, TLS, session=<Tq5/GvEMyM8k4y9p>
+Dec 20 13:38:51 enggletalk.com.tw dovecot[649049]: imap(support)<717891><Tq5/GvEMyM8k4y9p>: Logged out in=34 out=518 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
+Dec 20 13:39:01 enggletalk.com.tw CRON[717900]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:39:01 enggletalk.com.tw CRON[717899]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:39:01 enggletalk.com.tw CRON[717898]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:39:01 enggletalk.com.tw CRON[717901]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:39:01 enggletalk.com.tw CRON[717902]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:39:01 enggletalk.com.tw CRON[717903]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Dec 20 13:39:01 enggletalk.com.tw CRON[717898]: pam_unix(cron:session): session closed for user root
+Dec 20 13:39:02 enggletalk.com.tw CRON[717899]: pam_unix(cron:session): session closed for user root
+Dec 20 13:39:02 enggletalk.com.tw CRON[717900]: pam_unix(cron:session): session closed for user root
+Dec 20 13:39:04 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=192.241.216.30 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=237 ID=54321 PROTO=TCP SPT=55651 DPT=8192 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:39:07 enggletalk.com.tw systemd[1]: Starting Clean php session files...
+-- Subject: A start job for unit phpsessionclean.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit phpsessionclean.service has begun execution.
+-- 
+-- The job identifier is 106941.
+Dec 20 13:39:07 enggletalk.com.tw systemd[1]: phpsessionclean.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit phpsessionclean.service has successfully entered the 'dead' state.
+Dec 20 13:39:07 enggletalk.com.tw systemd[1]: Finished Clean php session files.
+-- Subject: A start job for unit phpsessionclean.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit phpsessionclean.service has finished successfully.
+-- 
+-- The job identifier is 106941.
+Dec 20 13:39:16 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=10.37.7.233 DST=97.74.92.111 LEN=52 TOS=0x00 PREC=0x00 TTL=48 ID=27148 DF PROTO=TCP SPT=58546 DPT=2224 WINDOW=29200 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:39:36 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=10.37.7.233 DST=97.74.92.111 LEN=52 TOS=0x00 PREC=0x00 TTL=48 ID=53467 DF PROTO=TCP SPT=58592 DPT=2224 WINDOW=29200 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:39:56 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=10.37.7.52 DST=97.74.92.111 LEN=52 TOS=0x00 PREC=0x00 TTL=48 ID=23780 DF PROTO=TCP SPT=56818 DPT=2224 WINDOW=29200 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:40:01 enggletalk.com.tw CRON[718010]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:40:01 enggletalk.com.tw CRON[718009]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:40:01 enggletalk.com.tw CRON[718008]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:40:01 enggletalk.com.tw CRON[718011]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:40:01 enggletalk.com.tw CRON[718012]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:40:01 enggletalk.com.tw CRON[718013]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 20 13:40:01 enggletalk.com.tw CRON[718008]: pam_unix(cron:session): session closed for user root
+Dec 20 13:40:01 enggletalk.com.tw CRON[718010]: pam_unix(cron:session): session closed for user root
+Dec 20 13:40:01 enggletalk.com.tw CRON[718009]: pam_unix(cron:session): session closed for user root
+Dec 20 13:40:24 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.163.110 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=4335 PROTO=TCP SPT=45457 DPT=18334 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:40:35 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=34.95.162.40 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=246 ID=61800 PROTO=TCP SPT=45432 DPT=27017 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:41:00 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.163.208 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=30920 PROTO=TCP SPT=56282 DPT=7007 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:41:01 enggletalk.com.tw CRON[718115]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:41:01 enggletalk.com.tw CRON[718116]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:41:01 enggletalk.com.tw CRON[718117]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:41:01 enggletalk.com.tw CRON[718118]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:41:01 enggletalk.com.tw CRON[718115]: pam_unix(cron:session): session closed for user root
+Dec 20 13:41:02 enggletalk.com.tw CRON[718116]: pam_unix(cron:session): session closed for user root
+Dec 20 13:41:19 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.49.130 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=33047 PROTO=TCP SPT=58111 DPT=7065 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:41:36 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=188.59.42.80 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=42 ID=54477 PROTO=TCP SPT=7969 DPT=23 WINDOW=29505 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:41:57 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.163.142 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=33901 PROTO=TCP SPT=50697 DPT=1233 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:42:01 enggletalk.com.tw CRON[718140]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:42:01 enggletalk.com.tw CRON[718139]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:42:01 enggletalk.com.tw CRON[718141]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:42:01 enggletalk.com.tw CRON[718142]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:42:01 enggletalk.com.tw CRON[718139]: pam_unix(cron:session): session closed for user root
+Dec 20 13:42:01 enggletalk.com.tw CRON[718140]: pam_unix(cron:session): session closed for user root
+Dec 20 13:42:16 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=45.143.200.46 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=12618 PROTO=TCP SPT=48546 DPT=25916 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:43:01 enggletalk.com.tw CRON[718163]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:43:01 enggletalk.com.tw CRON[718162]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:43:01 enggletalk.com.tw CRON[718164]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:43:01 enggletalk.com.tw CRON[718165]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:43:01 enggletalk.com.tw CRON[718162]: pam_unix(cron:session): session closed for user root
+Dec 20 13:43:01 enggletalk.com.tw CRON[718163]: pam_unix(cron:session): session closed for user root
+Dec 20 13:43:21 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.165.184 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=51102 PROTO=TCP SPT=45414 DPT=15023 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:43:29 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=132.148.76.25 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=238 ID=1606 PROTO=TCP SPT=54193 DPT=3389 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:43:51 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=8.134.214.241 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=231 ID=36394 PROTO=TCP SPT=59634 DPT=8090 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:43:55 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=56538 PROTO=TCP SPT=48500 DPT=2179 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:44:01 enggletalk.com.tw CRON[718187]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:44:01 enggletalk.com.tw CRON[718186]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:44:01 enggletalk.com.tw CRON[718188]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:44:01 enggletalk.com.tw CRON[718189]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:44:01 enggletalk.com.tw CRON[718186]: pam_unix(cron:session): session closed for user root
+Dec 20 13:44:01 enggletalk.com.tw CRON[718187]: pam_unix(cron:session): session closed for user root
+Dec 20 13:44:11 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=92.63.197.89 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=50924 PROTO=TCP SPT=51685 DPT=61929 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:44:20 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.60.154 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=29743 PROTO=TCP SPT=45196 DPT=1260 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:44:46 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=92.63.197.89 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=950 PROTO=TCP SPT=51685 DPT=52390 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:45:01 enggletalk.com.tw CRON[718216]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:45:01 enggletalk.com.tw CRON[718215]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:45:01 enggletalk.com.tw CRON[718217]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:45:01 enggletalk.com.tw CRON[718218]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:45:01 enggletalk.com.tw CRON[718214]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:45:01 enggletalk.com.tw CRON[718219]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 20 13:45:01 enggletalk.com.tw CRON[718214]: pam_unix(cron:session): session closed for user root
+Dec 20 13:45:01 enggletalk.com.tw CRON[718216]: pam_unix(cron:session): session closed for user root
+Dec 20 13:45:02 enggletalk.com.tw CRON[718215]: pam_unix(cron:session): session closed for user root
+Dec 20 13:45:13 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=92.63.197.89 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=33424 PROTO=TCP SPT=51685 DPT=44293 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:45:41 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=95.214.55.244 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=243 ID=54321 PROTO=TCP SPT=54720 DPT=4145 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:45:59 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.49.130 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=7001 PROTO=TCP SPT=58111 DPT=6873 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:46:01 enggletalk.com.tw CRON[718322]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:46:01 enggletalk.com.tw CRON[718321]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:46:01 enggletalk.com.tw CRON[718323]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:46:01 enggletalk.com.tw CRON[718324]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:46:01 enggletalk.com.tw CRON[718321]: pam_unix(cron:session): session closed for user root
+Dec 20 13:46:01 enggletalk.com.tw CRON[718322]: pam_unix(cron:session): session closed for user root
+Dec 20 13:46:05 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=23030 PROTO=TCP SPT=48500 DPT=32637 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:46:25 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.60.158 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=35893 PROTO=TCP SPT=45278 DPT=2311 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:46:48 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.60.154 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=44814 PROTO=TCP SPT=45180 DPT=1147 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:47:01 enggletalk.com.tw CRON[718345]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:47:01 enggletalk.com.tw CRON[718344]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:47:01 enggletalk.com.tw CRON[718346]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:47:01 enggletalk.com.tw CRON[718347]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:47:01 enggletalk.com.tw CRON[718344]: pam_unix(cron:session): session closed for user root
+Dec 20 13:47:01 enggletalk.com.tw CRON[718345]: pam_unix(cron:session): session closed for user root
+Dec 20 13:47:07 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.165.51 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=1871 PROTO=TCP SPT=56261 DPT=3910 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:47:18 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=62.204.41.170 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=3580 PROTO=TCP SPT=44465 DPT=7777 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:47:53 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=59042 PROTO=TCP SPT=48500 DPT=29961 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:48:00 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.165.51 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=28567 PROTO=TCP SPT=56261 DPT=3484 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:48:01 enggletalk.com.tw CRON[718369]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:48:01 enggletalk.com.tw CRON[718368]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:48:01 enggletalk.com.tw CRON[718370]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:48:01 enggletalk.com.tw CRON[718371]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:48:01 enggletalk.com.tw CRON[718368]: pam_unix(cron:session): session closed for user root
+Dec 20 13:48:01 enggletalk.com.tw CRON[718369]: pam_unix(cron:session): session closed for user root
+Dec 20 13:48:19 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=14.225.252.51 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=50 ID=22996 PROTO=TCP SPT=64631 DPT=23 WINDOW=7055 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:48:37 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=162.142.125.237 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=34 ID=49530 PROTO=TCP SPT=32475 DPT=49963 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:49:01 enggletalk.com.tw CRON[718393]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:49:01 enggletalk.com.tw CRON[718392]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:49:01 enggletalk.com.tw CRON[718394]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:49:01 enggletalk.com.tw CRON[718395]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:49:01 enggletalk.com.tw CRON[718392]: pam_unix(cron:session): session closed for user root
+Dec 20 13:49:01 enggletalk.com.tw CRON[718393]: pam_unix(cron:session): session closed for user root
+Dec 20 13:49:02 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=180.149.125.229 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=240 ID=54321 PROTO=TCP SPT=14311 DPT=2095 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:49:17 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.165.51 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=3836 PROTO=TCP SPT=56261 DPT=6114 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:50:01 enggletalk.com.tw CRON[718465]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:50:01 enggletalk.com.tw CRON[718466]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:50:01 enggletalk.com.tw CRON[718464]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:50:01 enggletalk.com.tw CRON[718467]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 20 13:50:01 enggletalk.com.tw CRON[718468]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:50:01 enggletalk.com.tw CRON[718469]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:50:01 enggletalk.com.tw CRON[718464]: pam_unix(cron:session): session closed for user root
+Dec 20 13:50:02 enggletalk.com.tw CRON[718466]: pam_unix(cron:session): session closed for user root
+Dec 20 13:50:02 enggletalk.com.tw CRON[718465]: pam_unix(cron:session): session closed for user root
+Dec 20 13:50:33 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=92.63.197.89 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=22766 PROTO=TCP SPT=51685 DPT=63944 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:50:38 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=193.163.125.149 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=238 ID=40886 PROTO=TCP SPT=33166 DPT=32804 WINDOW=14600 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:50:39 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=92.63.197.89 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=27890 PROTO=TCP SPT=51685 DPT=53330 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:50:43 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=45.142.182.91 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=233 ID=29524 PROTO=TCP SPT=46094 DPT=13489 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:51:01 enggletalk.com.tw CRON[718619]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:51:01 enggletalk.com.tw CRON[718618]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:51:01 enggletalk.com.tw CRON[718620]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:51:01 enggletalk.com.tw CRON[718621]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:51:02 enggletalk.com.tw CRON[718618]: pam_unix(cron:session): session closed for user root
+Dec 20 13:51:02 enggletalk.com.tw CRON[718619]: pam_unix(cron:session): session closed for user root
+Dec 20 13:51:15 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.165.51 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=33835 PROTO=TCP SPT=56261 DPT=5735 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:51:15 enggletalk.com.tw sshd[718635]: Connection reset by 183.109.213.146 port 61364 [preauth]
+Dec 20 13:51:20 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=162.142.125.254 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=33 ID=9243 PROTO=TCP SPT=45159 DPT=50910 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:51:37 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.165.51 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=35494 PROTO=TCP SPT=56277 DPT=3430 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:52:01 enggletalk.com.tw CRON[718643]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:52:01 enggletalk.com.tw CRON[718644]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:52:01 enggletalk.com.tw CRON[718645]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:52:01 enggletalk.com.tw CRON[718646]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:52:01 enggletalk.com.tw CRON[718643]: pam_unix(cron:session): session closed for user root
+Dec 20 13:52:01 enggletalk.com.tw CRON[718644]: pam_unix(cron:session): session closed for user root
+Dec 20 13:52:23 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=162.142.125.250 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=33 ID=11063 PROTO=TCP SPT=24112 DPT=50395 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:52:26 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.165.5 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=27849 PROTO=TCP SPT=56341 DPT=13904 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:53:01 enggletalk.com.tw CRON[718666]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:53:01 enggletalk.com.tw CRON[718667]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:53:01 enggletalk.com.tw CRON[718668]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:53:01 enggletalk.com.tw CRON[718669]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:53:01 enggletalk.com.tw CRON[718666]: pam_unix(cron:session): session closed for user root
+Dec 20 13:53:01 enggletalk.com.tw CRON[718667]: pam_unix(cron:session): session closed for user root
+Dec 20 13:53:15 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=33330 PROTO=TCP SPT=48500 DPT=16689 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:53:21 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=65.49.20.99 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=239 ID=54321 PROTO=TCP SPT=49140 DPT=8000 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:54:00 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.165.184 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=11042 PROTO=TCP SPT=45414 DPT=14939 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:54:01 enggletalk.com.tw CRON[718704]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:54:01 enggletalk.com.tw CRON[718703]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:54:01 enggletalk.com.tw CRON[718705]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:54:01 enggletalk.com.tw CRON[718706]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:54:01 enggletalk.com.tw CRON[718703]: pam_unix(cron:session): session closed for user root
+Dec 20 13:54:01 enggletalk.com.tw CRON[718704]: pam_unix(cron:session): session closed for user root
+Dec 20 13:54:18 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=5.188.206.194 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=50536 PROTO=TCP SPT=46193 DPT=3330 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:54:23 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.49.158 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=35821 PROTO=TCP SPT=45346 DPT=10163 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:54:34 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.60.138 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=422 PROTO=TCP SPT=45232 DPT=4633 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:54:36 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=193.57.40.49 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=243 ID=3208 PROTO=TCP SPT=55619 DPT=9833 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:55:01 enggletalk.com.tw CRON[718813]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:55:01 enggletalk.com.tw CRON[718812]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:55:01 enggletalk.com.tw CRON[718814]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:55:01 enggletalk.com.tw CRON[718815]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 20 13:55:01 enggletalk.com.tw CRON[718817]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:55:01 enggletalk.com.tw CRON[718816]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:55:01 enggletalk.com.tw CRON[718812]: pam_unix(cron:session): session closed for user root
+Dec 20 13:55:02 enggletalk.com.tw CRON[718814]: pam_unix(cron:session): session closed for user root
+Dec 20 13:55:02 enggletalk.com.tw CRON[718813]: pam_unix(cron:session): session closed for user root
+Dec 20 13:55:06 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=11906 PROTO=TCP SPT=48500 DPT=52476 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:55:13 enggletalk.com.tw sudo[718910]: [0;1;31m[0;1;39m[0;1;31m    root : unknown user: pport[0m
+Dec 20 13:55:22 enggletalk.com.tw sudo[718911]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/4 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/bash[0m
+Dec 20 13:55:22 enggletalk.com.tw sudo[718911]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Dec 20 13:55:26 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=45.143.200.46 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=52032 PROTO=TCP SPT=48546 DPT=30508 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:55:55 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=190.93.67.15 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=238 ID=9949 PROTO=TCP SPT=40448 DPT=3374 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:56:02 enggletalk.com.tw CRON[718926]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:56:02 enggletalk.com.tw CRON[718927]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:56:02 enggletalk.com.tw CRON[718928]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:56:02 enggletalk.com.tw CRON[718929]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:56:02 enggletalk.com.tw CRON[718926]: pam_unix(cron:session): session closed for user root
+Dec 20 13:56:02 enggletalk.com.tw CRON[718927]: pam_unix(cron:session): session closed for user root
+Dec 20 13:56:03 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=80.66.83.146 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=6702 PROTO=TCP SPT=54778 DPT=6991 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:56:31 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.165.184 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=63903 PROTO=TCP SPT=45398 DPT=15865 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:56:44 enggletalk.com.tw su[718944]: [0;1;39m[0;1;31m[0;1;39m(to support) root on pts/4[0m
+Dec 20 13:56:44 enggletalk.com.tw su[718944]: pam_unix(su-l:session): session opened for user support by root(uid=0)
+Dec 20 13:57:01 enggletalk.com.tw CRON[718960]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:57:01 enggletalk.com.tw CRON[718959]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:57:01 enggletalk.com.tw CRON[718961]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:57:01 enggletalk.com.tw CRON[718962]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:57:01 enggletalk.com.tw CRON[718959]: pam_unix(cron:session): session closed for user root
+Dec 20 13:57:01 enggletalk.com.tw CRON[718960]: pam_unix(cron:session): session closed for user root
+Dec 20 13:57:09 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.153 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=48543 PROTO=TCP SPT=41884 DPT=38904 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:57:16 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.60.138 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=50364 PROTO=TCP SPT=45248 DPT=4391 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:57:34 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=61378 PROTO=TCP SPT=48500 DPT=20814 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:57:35 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.165.187 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=5330 PROTO=TCP SPT=45440 DPT=17121 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:58:01 enggletalk.com.tw CRON[719005]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:58:01 enggletalk.com.tw CRON[719006]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:58:01 enggletalk.com.tw CRON[719007]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:58:01 enggletalk.com.tw CRON[719008]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:58:01 enggletalk.com.tw CRON[719005]: pam_unix(cron:session): session closed for user root
+Dec 20 13:58:01 enggletalk.com.tw CRON[719006]: pam_unix(cron:session): session closed for user root
+Dec 20 13:58:03 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=55315 PROTO=TCP SPT=48500 DPT=23130 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:58:17 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=80.66.83.146 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=53795 PROTO=TCP SPT=54778 DPT=6759 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:59:01 enggletalk.com.tw CRON[719037]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:59:01 enggletalk.com.tw CRON[719036]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:59:01 enggletalk.com.tw CRON[719038]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:59:01 enggletalk.com.tw CRON[719039]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 13:59:01 enggletalk.com.tw CRON[719036]: pam_unix(cron:session): session closed for user root
+Dec 20 13:59:01 enggletalk.com.tw CRON[719037]: pam_unix(cron:session): session closed for user root
+Dec 20 13:59:06 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.165.187 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=2352 PROTO=TCP SPT=45440 DPT=16697 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:59:24 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=92.63.197.89 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=14541 PROTO=TCP SPT=51685 DPT=59114 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:59:25 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=194.26.135.33 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=51948 PROTO=TCP SPT=59806 DPT=8231 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:59:37 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=92.63.197.224 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=9255 PROTO=TCP SPT=53252 DPT=18674 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 13:59:58 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=162.243.142.20 DST=97.74.92.111 LEN=52 TOS=0x00 PREC=0x00 TTL=235 ID=54321 PROTO=UDP SPT=56583 DPT=3306 LEN=32 [0m
+Dec 20 14:00:02 enggletalk.com.tw CRON[719073]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:00:02 enggletalk.com.tw CRON[719074]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:00:02 enggletalk.com.tw CRON[719072]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:00:02 enggletalk.com.tw CRON[719075]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:00:02 enggletalk.com.tw CRON[719076]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 20 14:00:02 enggletalk.com.tw CRON[719077]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:00:02 enggletalk.com.tw CRON[719072]: pam_unix(cron:session): session closed for user root
+Dec 20 14:00:02 enggletalk.com.tw CRON[719074]: pam_unix(cron:session): session closed for user root
+Dec 20 14:00:03 enggletalk.com.tw systemd[1]: Starting Update APT News...
+-- Subject: A start job for unit apt-news.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apt-news.service has begun execution.
+-- 
+-- The job identifier is 107013.
+Dec 20 14:00:03 enggletalk.com.tw systemd[1]: Starting Update the local ESM caches...
+-- Subject: A start job for unit esm-cache.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit esm-cache.service has begun execution.
+-- 
+-- The job identifier is 107085.
+Dec 20 14:00:04 enggletalk.com.tw systemd[1]: esm-cache.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit esm-cache.service has successfully entered the 'dead' state.
+Dec 20 14:00:04 enggletalk.com.tw systemd[1]: Finished Update the local ESM caches.
+-- Subject: A start job for unit esm-cache.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit esm-cache.service has finished successfully.
+-- 
+-- The job identifier is 107085.
+Dec 20 14:00:06 enggletalk.com.tw systemd[1]: apt-news.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apt-news.service has successfully entered the 'dead' state.
+Dec 20 14:00:06 enggletalk.com.tw systemd[1]: Finished Update APT News.
+-- Subject: A start job for unit apt-news.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apt-news.service has finished successfully.
+-- 
+-- The job identifier is 107013.
+Dec 20 14:00:16 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=185.180.143.19 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=238 ID=1002 PROTO=TCP SPT=36902 DPT=3460 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:00:33 enggletalk.com.tw dbus-daemon[568]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.1289' (uid=0 pid=719631 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Dec 20 14:00:33 enggletalk.com.tw systemd[1]: Starting PackageKit Daemon...
+-- Subject: A start job for unit packagekit.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has begun execution.
+-- 
+-- The job identifier is 107157.
+Dec 20 14:00:34 enggletalk.com.tw PackageKit[719634]: [0;38;5;245m[0;1;31m[0;38;5;245mdaemon start[0m
+Dec 20 14:00:34 enggletalk.com.tw dbus-daemon[568]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Dec 20 14:00:34 enggletalk.com.tw systemd[1]: Started PackageKit Daemon.
+-- Subject: A start job for unit packagekit.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has finished successfully.
+-- 
+-- The job identifier is 107157.
+Dec 20 14:00:36 enggletalk.com.tw CRON[719073]: pam_unix(cron:session): session closed for user root
+Dec 20 14:00:37 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.72 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=34648 PROTO=TCP SPT=40906 DPT=1111 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:00:58 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=3.9.176.137 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=33 ID=11816 PROTO=TCP SPT=21142 DPT=8015 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:01:01 enggletalk.com.tw CRON[719679]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:01:01 enggletalk.com.tw CRON[719678]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:01:01 enggletalk.com.tw CRON[719680]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:01:01 enggletalk.com.tw CRON[719681]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:01:02 enggletalk.com.tw CRON[719678]: pam_unix(cron:session): session closed for user root
+Dec 20 14:01:02 enggletalk.com.tw CRON[719679]: pam_unix(cron:session): session closed for user root
+Dec 20 14:01:29 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=91.92.249.5 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=38071 DPT=3128 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:01:42 enggletalk.com.tw sudo[719696]: [0;1;31m[0;1;39m[0;1;31m support : user NOT in sudoers ; TTY=pts/4 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/chmod +x node_modules/.bin/vite[0m
+Dec 20 14:01:42 enggletalk.com.tw postfix/pickup[707854]: E4A69A243E: uid=1003 from=<support>
+Dec 20 14:01:42 enggletalk.com.tw postfix/cleanup[719701]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mwarning: connect to Milter service unix:/run/opendkim/opendkim.sock: No such file or directory[0m
+Dec 20 14:01:42 enggletalk.com.tw postfix/cleanup[719701]: E4A69A243E: message-id=<20231220140142.E4A69A243E@enggletalk.com.tw>
+Dec 20 14:01:42 enggletalk.com.tw postfix/qmgr[650040]: E4A69A243E: from=<support@enggletalk.com.tw>, size=576, nrcpt=1 (queue active)
+Dec 20 14:01:42 enggletalk.com.tw postfix/trivial-rewrite[719702]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mwarning: do not list domain enggletalk.com.tw in BOTH mydestination and virtual_alias_domains[0m
+Dec 20 14:01:42 enggletalk.com.tw postfix/local[719703]: E4A69A243E: to=<root@enggletalk.com.tw>, orig_to=<root>, relay=local, delay=0.04, delays=0.03/0.01/0/0.01, dsn=2.0.0, status=sent (delivered to command: procmail -a "$EXTENSION")
+Dec 20 14:01:42 enggletalk.com.tw postfix/qmgr[650040]: E4A69A243E: removed
+Dec 20 14:01:47 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.163.205 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=56481 PROTO=TCP SPT=56986 DPT=2000 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:01:53 enggletalk.com.tw sudo[719705]: [0;1;31m[0;1;39m[0;1;31m support : user NOT in sudoers ; TTY=pts/4 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/chmod +x node_modules/.bin/vite[0m
+Dec 20 14:01:53 enggletalk.com.tw postfix/pickup[707854]: 1C3E7A243E: uid=1003 from=<support>
+Dec 20 14:01:53 enggletalk.com.tw postfix/cleanup[719701]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mwarning: connect to Milter service unix:/run/opendkim/opendkim.sock: No such file or directory[0m
+Dec 20 14:01:53 enggletalk.com.tw postfix/cleanup[719701]: 1C3E7A243E: message-id=<20231220140153.1C3E7A243E@enggletalk.com.tw>
+Dec 20 14:01:53 enggletalk.com.tw postfix/qmgr[650040]: 1C3E7A243E: from=<support@enggletalk.com.tw>, size=576, nrcpt=1 (queue active)
+Dec 20 14:01:53 enggletalk.com.tw postfix/local[719703]: 1C3E7A243E: to=<root@enggletalk.com.tw>, orig_to=<root>, relay=local, delay=0.01, delays=0.01/0/0/0, dsn=2.0.0, status=sent (delivered to command: procmail -a "$EXTENSION")
+Dec 20 14:01:53 enggletalk.com.tw postfix/qmgr[650040]: 1C3E7A243E: removed
+Dec 20 14:02:01 enggletalk.com.tw CRON[719719]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:02:01 enggletalk.com.tw CRON[719718]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:02:01 enggletalk.com.tw CRON[719720]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:02:01 enggletalk.com.tw CRON[719721]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:02:01 enggletalk.com.tw CRON[719718]: pam_unix(cron:session): session closed for user root
+Dec 20 14:02:01 enggletalk.com.tw CRON[719719]: pam_unix(cron:session): session closed for user root
+Dec 20 14:02:01 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.60.158 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=27509 PROTO=TCP SPT=45278 DPT=3783 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:02:19 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.146 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=34018 PROTO=TCP SPT=41967 DPT=27000 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:02:42 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=65300 PROTO=TCP SPT=48500 DPT=27156 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:03:01 enggletalk.com.tw CRON[719755]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:03:01 enggletalk.com.tw CRON[719754]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:03:01 enggletalk.com.tw CRON[719756]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:03:01 enggletalk.com.tw CRON[719757]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:03:01 enggletalk.com.tw CRON[719754]: pam_unix(cron:session): session closed for user root
+Dec 20 14:03:01 enggletalk.com.tw CRON[719755]: pam_unix(cron:session): session closed for user root
+Dec 20 14:03:20 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=62.204.41.170 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=61803 PROTO=TCP SPT=44465 DPT=20061 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:03:39 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=94.102.61.46 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=54321 PROTO=TCP SPT=55054 DPT=1291 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:03:48 enggletalk.com.tw sudo[719771]: [0;1;31m[0;1;39m[0;1;31m support : user NOT in sudoers ; TTY=pts/4 ; PWD=/var/www/html ; USER=root ; COMMAND=- root[0m
+Dec 20 14:03:48 enggletalk.com.tw postfix/pickup[707854]: 83C9CA243E: uid=1003 from=<support>
+Dec 20 14:03:48 enggletalk.com.tw postfix/cleanup[719776]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mwarning: connect to Milter service unix:/run/opendkim/opendkim.sock: No such file or directory[0m
+Dec 20 14:03:48 enggletalk.com.tw postfix/cleanup[719776]: 83C9CA243E: message-id=<20231220140348.83C9CA243E@enggletalk.com.tw>
+Dec 20 14:03:48 enggletalk.com.tw postfix/qmgr[650040]: 83C9CA243E: from=<support@enggletalk.com.tw>, size=542, nrcpt=1 (queue active)
+Dec 20 14:03:48 enggletalk.com.tw postfix/trivial-rewrite[719777]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mwarning: do not list domain enggletalk.com.tw in BOTH mydestination and virtual_alias_domains[0m
+Dec 20 14:03:48 enggletalk.com.tw postfix/local[719778]: 83C9CA243E: to=<root@enggletalk.com.tw>, orig_to=<root>, relay=local, delay=0.02, delays=0.01/0/0/0, dsn=2.0.0, status=sent (delivered to command: procmail -a "$EXTENSION")
+Dec 20 14:03:48 enggletalk.com.tw postfix/qmgr[650040]: 83C9CA243E: removed
+Dec 20 14:03:49 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=78.128.113.250 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=6135 PROTO=TCP SPT=55605 DPT=4001 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:03:59 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=45.143.200.46 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=47857 PROTO=TCP SPT=48546 DPT=43107 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:04:01 enggletalk.com.tw CRON[719786]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:04:01 enggletalk.com.tw CRON[719787]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:04:01 enggletalk.com.tw CRON[719788]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:04:01 enggletalk.com.tw CRON[719789]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:04:01 enggletalk.com.tw CRON[719786]: pam_unix(cron:session): session closed for user root
+Dec 20 14:04:01 enggletalk.com.tw CRON[719787]: pam_unix(cron:session): session closed for user root
+Dec 20 14:04:17 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=193.163.125.180 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=234 ID=50055 PROTO=TCP SPT=33982 DPT=49743 WINDOW=14600 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:04:26 enggletalk.com.tw sudo[719804]: [0;1;31m[0;1;39m[0;1;31m support : user NOT in sudoers ; TTY=pts/4 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/su[0m
+Dec 20 14:04:26 enggletalk.com.tw postfix/pickup[707854]: 55523A243E: uid=1003 from=<support>
+Dec 20 14:04:26 enggletalk.com.tw postfix/cleanup[719776]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mwarning: connect to Milter service unix:/run/opendkim/opendkim.sock: No such file or directory[0m
+Dec 20 14:04:26 enggletalk.com.tw postfix/cleanup[719776]: 55523A243E: message-id=<20231220140426.55523A243E@enggletalk.com.tw>
+Dec 20 14:04:26 enggletalk.com.tw postfix/qmgr[650040]: 55523A243E: from=<support@enggletalk.com.tw>, size=547, nrcpt=1 (queue active)
+Dec 20 14:04:26 enggletalk.com.tw postfix/trivial-rewrite[719777]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mwarning: do not list domain enggletalk.com.tw in BOTH mydestination and virtual_alias_domains[0m
+Dec 20 14:04:26 enggletalk.com.tw postfix/local[719778]: 55523A243E: to=<root@enggletalk.com.tw>, orig_to=<root>, relay=local, delay=0.02, delays=0.01/0/0/0.01, dsn=2.0.0, status=sent (delivered to command: procmail -a "$EXTENSION")
+Dec 20 14:04:26 enggletalk.com.tw postfix/qmgr[650040]: 55523A243E: removed
+Dec 20 14:04:35 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=223.12.4.245 DST=97.74.92.111 LEN=60 TOS=0x00 PREC=0x00 TTL=46 ID=1539 DF PROTO=TCP SPT=46392 DPT=23 WINDOW=29040 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:04:50 enggletalk.com.tw sshd[707279]: Received disconnect from 36.227.47.105 port 54246:11: disconnected by user
+Dec 20 14:04:50 enggletalk.com.tw sshd[707279]: Disconnected from user root 36.227.47.105 port 54246
+Dec 20 14:04:50 enggletalk.com.tw sshd[707279]: pam_unix(sshd:session): session closed for user root
+Dec 20 14:04:50 enggletalk.com.tw sudo[718911]: pam_unix(sudo:session): session closed for user root
+Dec 20 14:04:50 enggletalk.com.tw systemd[1]: session-18985.scope: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit session-18985.scope has successfully entered the 'dead' state.
+Dec 20 14:04:50 enggletalk.com.tw su[718944]: pam_unix(su-l:session): session closed for user support
+Dec 20 14:04:50 enggletalk.com.tw systemd-logind[588]: Session 18985 logged out. Waiting for processes to exit.
+Dec 20 14:04:50 enggletalk.com.tw systemd-logind[588]: Removed session 18985.
+-- Subject: Session 18985 has been terminated
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A session with the ID 18985 has been terminated.
+Dec 20 14:05:01 enggletalk.com.tw CRON[719839]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:05:01 enggletalk.com.tw CRON[719838]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:05:01 enggletalk.com.tw CRON[719837]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:05:01 enggletalk.com.tw CRON[719840]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:05:01 enggletalk.com.tw CRON[719841]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:05:01 enggletalk.com.tw CRON[719842]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 20 14:05:01 enggletalk.com.tw CRON[719837]: pam_unix(cron:session): session closed for user root
+Dec 20 14:05:01 enggletalk.com.tw CRON[719839]: pam_unix(cron:session): session closed for user root
+Dec 20 14:05:02 enggletalk.com.tw CRON[719838]: pam_unix(cron:session): session closed for user root
+Dec 20 14:05:20 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=167.94.145.30 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=38 ID=21102 PROTO=TCP SPT=51691 DPT=6697 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:05:20 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.60.158 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=8702 PROTO=TCP SPT=45294 DPT=2507 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:05:39 enggletalk.com.tw sshd[719936]: Invalid user admin from 183.105.18.57 port 60752
+Dec 20 14:05:39 enggletalk.com.tw sshd[719936]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+Dec 20 14:05:39 enggletalk.com.tw sshd[719936]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.105.18.57[0m
+Dec 20 14:05:39 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=45.143.200.46 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=65428 PROTO=TCP SPT=48546 DPT=40303 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:05:39 enggletalk.com.tw PackageKit[719634]: [0;38;5;245m[0;1;31m[0;38;5;245mdaemon quit[0m
+Dec 20 14:05:39 enggletalk.com.tw systemd[1]: packagekit.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit packagekit.service has successfully entered the 'dead' state.
+Dec 20 14:05:40 enggletalk.com.tw sshd[719936]: Failed password for invalid user admin from 183.105.18.57 port 60752 ssh2
+Dec 20 14:05:41 enggletalk.com.tw sshd[719936]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+Dec 20 14:05:43 enggletalk.com.tw sshd[719936]: Failed password for invalid user admin from 183.105.18.57 port 60752 ssh2
+Dec 20 14:05:44 enggletalk.com.tw sshd[719936]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+Dec 20 14:05:45 enggletalk.com.tw sshd[719936]: Failed password for invalid user admin from 183.105.18.57 port 60752 ssh2
+Dec 20 14:05:46 enggletalk.com.tw sshd[719936]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+Dec 20 14:05:48 enggletalk.com.tw sshd[719936]: Failed password for invalid user admin from 183.105.18.57 port 60752 ssh2
+Dec 20 14:05:51 enggletalk.com.tw sshd[719936]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+Dec 20 14:05:53 enggletalk.com.tw sshd[719936]: Failed password for invalid user admin from 183.105.18.57 port 60752 ssh2
+Dec 20 14:05:53 enggletalk.com.tw sshd[719936]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+Dec 20 14:05:55 enggletalk.com.tw sshd[719936]: Failed password for invalid user admin from 183.105.18.57 port 60752 ssh2
+Dec 20 14:05:55 enggletalk.com.tw sshd[719936]: [0;1;31m[0;1;39m[0;1;31merror: maximum authentication attempts exceeded for invalid user admin from 183.105.18.57 port 60752 ssh2 [preauth][0m
+Dec 20 14:05:55 enggletalk.com.tw sshd[719936]: Disconnecting invalid user admin 183.105.18.57 port 60752: Too many authentication failures [preauth]
+Dec 20 14:05:55 enggletalk.com.tw sshd[719936]: [0;1;39m[0;1;31m[0;1;39mPAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.105.18.57[0m
+Dec 20 14:05:55 enggletalk.com.tw sshd[719936]: [0;1;39m[0;1;31m[0;1;39mPAM service(sshd) ignoring max retries; 6 > 3[0m
+Dec 20 14:05:56 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.14 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=49904 PROTO=TCP SPT=41923 DPT=38937 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:06:01 enggletalk.com.tw CRON[719962]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:06:01 enggletalk.com.tw CRON[719961]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:06:01 enggletalk.com.tw CRON[719963]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:06:01 enggletalk.com.tw CRON[719964]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:06:01 enggletalk.com.tw CRON[719961]: pam_unix(cron:session): session closed for user root
+Dec 20 14:06:01 enggletalk.com.tw CRON[719962]: pam_unix(cron:session): session closed for user root
+Dec 20 14:07:01 enggletalk.com.tw CRON[719994]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:07:01 enggletalk.com.tw CRON[719993]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:07:01 enggletalk.com.tw CRON[719995]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:07:01 enggletalk.com.tw CRON[719996]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:07:01 enggletalk.com.tw CRON[719993]: pam_unix(cron:session): session closed for user root
+Dec 20 14:07:01 enggletalk.com.tw CRON[719994]: pam_unix(cron:session): session closed for user root
+Dec 20 14:07:13 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=92.63.197.224 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=25215 PROTO=TCP SPT=53252 DPT=18788 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:07:14 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=45.33.86.153 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=240 ID=54321 PROTO=TCP SPT=51820 DPT=9222 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:07:32 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=45.128.232.159 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=236 ID=60888 PROTO=TCP SPT=51400 DPT=8453 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:07:34 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=141.98.11.182 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=55244 PROTO=TCP SPT=54992 DPT=3389 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:07:45 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=62.204.41.170 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=39436 PROTO=TCP SPT=44465 DPT=3391 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:07:58 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=92.63.197.88 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=63483 PROTO=TCP SPT=54827 DPT=9058 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:08:01 enggletalk.com.tw CRON[720024]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:08:01 enggletalk.com.tw CRON[720025]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:08:01 enggletalk.com.tw CRON[720026]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:08:01 enggletalk.com.tw CRON[720027]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:08:01 enggletalk.com.tw CRON[720024]: pam_unix(cron:session): session closed for user root
+Dec 20 14:08:01 enggletalk.com.tw CRON[720025]: pam_unix(cron:session): session closed for user root
+Dec 20 14:08:23 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.49.134 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=28412 PROTO=TCP SPT=45329 DPT=9585 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:08:38 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=122.103.104.241 DST=97.74.92.111 LEN=60 TOS=0x00 PREC=0x00 TTL=43 ID=57095 DF PROTO=TCP SPT=38208 DPT=23 WINDOW=14600 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:09:01 enggletalk.com.tw CRON[720049]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:09:01 enggletalk.com.tw CRON[720050]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:09:01 enggletalk.com.tw CRON[720048]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:09:01 enggletalk.com.tw CRON[720051]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:09:01 enggletalk.com.tw CRON[720052]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:09:01 enggletalk.com.tw CRON[720053]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Dec 20 14:09:01 enggletalk.com.tw CRON[720048]: pam_unix(cron:session): session closed for user root
+Dec 20 14:09:02 enggletalk.com.tw CRON[720049]: pam_unix(cron:session): session closed for user root
+Dec 20 14:09:02 enggletalk.com.tw CRON[720050]: pam_unix(cron:session): session closed for user root
+Dec 20 14:09:05 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=21208 PROTO=TCP SPT=48500 DPT=22377 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:09:07 enggletalk.com.tw systemd[1]: Starting Clean php session files...
+-- Subject: A start job for unit phpsessionclean.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit phpsessionclean.service has begun execution.
+-- 
+-- The job identifier is 107230.
+Dec 20 14:09:07 enggletalk.com.tw systemd[1]: phpsessionclean.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit phpsessionclean.service has successfully entered the 'dead' state.
+Dec 20 14:09:07 enggletalk.com.tw systemd[1]: Finished Clean php session files.
+-- Subject: A start job for unit phpsessionclean.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit phpsessionclean.service has finished successfully.
+-- 
+-- The job identifier is 107230.
+Dec 20 14:09:25 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=45.142.182.91 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=237 ID=7064 PROTO=TCP SPT=46094 DPT=2890 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:09:43 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=162.142.125.234 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=33 ID=51015 PROTO=TCP SPT=61626 DPT=45124 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:10:00 enggletalk.com.tw sshd[720156]: Accepted publickey for root from 36.227.47.105 port 60965 ssh2: RSA SHA256:J3sJ08aOj69gWx6jSZbUsr0HZ4NAMvWUF6+b84/dOX0
+Dec 20 14:10:00 enggletalk.com.tw sshd[720156]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 20 14:10:00 enggletalk.com.tw systemd-logind[588]: New session 19198 of user root.
+-- Subject: A new session 19198 has been created for user root
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 19198 has been created for the user root.
+-- 
+-- The leading process of the session is 720156.
+Dec 20 14:10:00 enggletalk.com.tw systemd[1]: Started Session 19198 of user root.
+-- Subject: A start job for unit session-19198.scope has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit session-19198.scope has finished successfully.
+-- 
+-- The job identifier is 107302.
+Dec 20 14:10:01 enggletalk.com.tw CRON[720208]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:10:01 enggletalk.com.tw CRON[720209]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:10:01 enggletalk.com.tw CRON[720207]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:10:01 enggletalk.com.tw CRON[720210]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:10:01 enggletalk.com.tw CRON[720211]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:10:01 enggletalk.com.tw CRON[720212]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 20 14:10:01 enggletalk.com.tw CRON[720207]: pam_unix(cron:session): session closed for user root
+Dec 20 14:10:01 enggletalk.com.tw CRON[720209]: pam_unix(cron:session): session closed for user root
+Dec 20 14:10:01 enggletalk.com.tw CRON[720208]: pam_unix(cron:session): session closed for user root
+Dec 20 14:10:07 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=55995 PROTO=TCP SPT=48500 DPT=26319 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:10:44 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.165.186 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=37547 PROTO=TCP SPT=45373 DPT=13713 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:10:48 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=30990 PROTO=TCP SPT=48500 DPT=58868 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:11:01 enggletalk.com.tw CRON[720322]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:11:01 enggletalk.com.tw CRON[720321]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:11:01 enggletalk.com.tw CRON[720323]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:11:01 enggletalk.com.tw CRON[720324]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:11:01 enggletalk.com.tw CRON[720321]: pam_unix(cron:session): session closed for user root
+Dec 20 14:11:01 enggletalk.com.tw CRON[720322]: pam_unix(cron:session): session closed for user root
+Dec 20 14:11:02 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.165.186 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=26306 PROTO=TCP SPT=45373 DPT=13400 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:11:33 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=92.63.197.224 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=1565 PROTO=TCP SPT=53252 DPT=16813 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:11:46 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=92.63.197.89 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=36393 PROTO=TCP SPT=51685 DPT=63562 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:12:01 enggletalk.com.tw CRON[720350]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:12:01 enggletalk.com.tw CRON[720349]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:12:01 enggletalk.com.tw CRON[720351]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:12:01 enggletalk.com.tw CRON[720352]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:12:01 enggletalk.com.tw CRON[720349]: pam_unix(cron:session): session closed for user root
+Dec 20 14:12:02 enggletalk.com.tw CRON[720350]: pam_unix(cron:session): session closed for user root
+Dec 20 14:12:02 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=223.15.53.105 DST=97.74.92.111 LEN=60 TOS=0x00 PREC=0x00 TTL=42 ID=51705 DF PROTO=TCP SPT=33496 DPT=23 WINDOW=29040 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:12:20 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=110.7.52.148 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=47 ID=40677 PROTO=TCP SPT=48585 DPT=23 WINDOW=16681 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:12:36 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=107.170.252.49 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=235 ID=54321 PROTO=TCP SPT=38315 DPT=8333 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:13:01 enggletalk.com.tw CRON[720373]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:13:01 enggletalk.com.tw CRON[720372]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:13:01 enggletalk.com.tw CRON[720374]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:13:01 enggletalk.com.tw CRON[720375]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:13:01 enggletalk.com.tw CRON[720372]: pam_unix(cron:session): session closed for user root
+Dec 20 14:13:01 enggletalk.com.tw CRON[720373]: pam_unix(cron:session): session closed for user root
+Dec 20 14:13:22 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=61.224.19.154 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=47 ID=27318 PROTO=TCP SPT=7018 DPT=23 WINDOW=881 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:14:01 enggletalk.com.tw CRON[720400]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:14:01 enggletalk.com.tw CRON[720399]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:14:01 enggletalk.com.tw CRON[720401]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:14:01 enggletalk.com.tw CRON[720402]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:14:01 enggletalk.com.tw CRON[720399]: pam_unix(cron:session): session closed for user root
+Dec 20 14:14:01 enggletalk.com.tw CRON[720400]: pam_unix(cron:session): session closed for user root
+Dec 20 14:14:08 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=92.63.197.224 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=50474 PROTO=TCP SPT=53252 DPT=12006 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:14:37 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=85.209.11.109 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=25548 PROTO=TCP SPT=56484 DPT=15961 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:14:45 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=3.8.125.116 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=37 ID=49766 PROTO=TCP SPT=21585 DPT=8015 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:14:47 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=3.8.125.116 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=37 ID=49766 PROTO=TCP SPT=21585 DPT=8015 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:14:56 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=104.131.86.23 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=54321 PROTO=TCP SPT=58512 DPT=18942 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:14:57 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.60.158 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=44174 PROTO=TCP SPT=45278 DPT=3166 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:15:01 enggletalk.com.tw CRON[720442]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:15:01 enggletalk.com.tw CRON[720441]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:15:01 enggletalk.com.tw CRON[720440]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:15:01 enggletalk.com.tw CRON[720443]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:15:01 enggletalk.com.tw CRON[720444]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:15:01 enggletalk.com.tw CRON[720445]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 20 14:15:01 enggletalk.com.tw CRON[720440]: pam_unix(cron:session): session closed for user root
+Dec 20 14:15:01 enggletalk.com.tw CRON[720442]: pam_unix(cron:session): session closed for user root
+Dec 20 14:15:02 enggletalk.com.tw CRON[720441]: pam_unix(cron:session): session closed for user root
+Dec 20 14:15:18 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=47931 PROTO=TCP SPT=48500 DPT=17838 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:15:49 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=92.63.197.224 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=63004 PROTO=TCP SPT=53252 DPT=11540 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:16:01 enggletalk.com.tw CRON[720553]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:16:01 enggletalk.com.tw CRON[720552]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:16:01 enggletalk.com.tw CRON[720554]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:16:01 enggletalk.com.tw CRON[720555]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:16:01 enggletalk.com.tw CRON[720552]: pam_unix(cron:session): session closed for user root
+Dec 20 14:16:01 enggletalk.com.tw CRON[720553]: pam_unix(cron:session): session closed for user root
+Dec 20 14:16:08 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=146.88.241.145 DST=97.74.92.111 LEN=32 TOS=0x00 PREC=0x00 TTL=243 ID=54321 PROTO=UDP SPT=56999 DPT=5683 LEN=12 [0m
+Dec 20 14:16:15 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=3.8.125.116 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=37 ID=49766 PROTO=TCP SPT=21585 DPT=8015 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:16:59 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=185.224.128.17 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=54321 PROTO=TCP SPT=41755 DPT=9958 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:17:01 enggletalk.com.tw CRON[720589]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:17:01 enggletalk.com.tw CRON[720588]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:17:01 enggletalk.com.tw CRON[720587]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:17:01 enggletalk.com.tw CRON[720590]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:17:01 enggletalk.com.tw CRON[720591]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:17:01 enggletalk.com.tw CRON[720592]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec 20 14:17:01 enggletalk.com.tw CRON[720587]: pam_unix(cron:session): session closed for user root
+Dec 20 14:17:01 enggletalk.com.tw CRON[720588]: pam_unix(cron:session): session closed for user root
+Dec 20 14:17:01 enggletalk.com.tw CRON[720589]: pam_unix(cron:session): session closed for user root
+Dec 20 14:17:11 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=80.94.95.249 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=37624 PROTO=TCP SPT=61000 DPT=8094 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:17:26 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=167.94.146.27 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=32 ID=57003 PROTO=TCP SPT=14909 DPT=830 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:17:58 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.49.158 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=61741 PROTO=TCP SPT=45330 DPT=11412 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:18:01 enggletalk.com.tw CRON[720627]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:18:01 enggletalk.com.tw CRON[720626]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:18:01 enggletalk.com.tw CRON[720628]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:18:01 enggletalk.com.tw CRON[720629]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:18:01 enggletalk.com.tw CRON[720626]: pam_unix(cron:session): session closed for user root
+Dec 20 14:18:01 enggletalk.com.tw CRON[720627]: pam_unix(cron:session): session closed for user root
+Dec 20 14:18:14 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.60.138 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=6132 PROTO=TCP SPT=45248 DPT=5039 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:18:26 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=192.64.85.50 DST=97.74.92.111 LEN=58 TOS=0x00 PREC=0x00 TTL=48 ID=34873 DF PROTO=UDP SPT=8081 DPT=30301 LEN=38 [0m
+Dec 20 14:18:38 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=62.204.41.170 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=15533 PROTO=TCP SPT=44465 DPT=50000 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:19:01 enggletalk.com.tw CRON[720654]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:19:01 enggletalk.com.tw CRON[720655]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:19:01 enggletalk.com.tw CRON[720656]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:19:01 enggletalk.com.tw CRON[720657]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:19:01 enggletalk.com.tw CRON[720654]: pam_unix(cron:session): session closed for user root
+Dec 20 14:19:01 enggletalk.com.tw CRON[720655]: pam_unix(cron:session): session closed for user root
+Dec 20 14:19:07 enggletalk.com.tw freshclam[454528]: Wed Dec 20 14:19:07 2023 -> Received signal: wake up
+Dec 20 14:19:07 enggletalk.com.tw freshclam[454528]: Wed Dec 20 14:19:07 2023 -> ClamAV update process started at Wed Dec 20 14:19:07 2023
+Dec 20 14:19:07 enggletalk.com.tw freshclam[454528]: Wed Dec 20 14:19:07 2023 -> ^Your ClamAV installation is OUTDATED!
+Dec 20 14:19:07 enggletalk.com.tw freshclam[454528]: Wed Dec 20 14:19:07 2023 -> ^Local version: 0.103.9 Recommended version: 0.103.11
+Dec 20 14:19:07 enggletalk.com.tw freshclam[454528]: Wed Dec 20 14:19:07 2023 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Dec 20 14:19:07 enggletalk.com.tw freshclam[454528]: Wed Dec 20 14:19:07 2023 -> daily.cld database is up-to-date (version: 27129, sigs: 2049167, f-level: 90, builder: raynman)
+Dec 20 14:19:07 enggletalk.com.tw freshclam[454528]: Wed Dec 20 14:19:07 2023 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Dec 20 14:19:07 enggletalk.com.tw freshclam[454528]: Wed Dec 20 14:19:07 2023 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Dec 20 14:19:15 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.49.158 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=58246 PROTO=TCP SPT=45330 DPT=11089 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:19:17 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.163.110 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=8385 PROTO=TCP SPT=45473 DPT=18673 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:20:00 enggletalk.com.tw clamd[699182]: Wed Dec 20 14:20:00 2023 -> SelfCheck: Database status OK.
+Dec 20 14:20:01 enggletalk.com.tw CRON[720683]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:20:01 enggletalk.com.tw CRON[720681]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:20:01 enggletalk.com.tw CRON[720682]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:20:01 enggletalk.com.tw CRON[720684]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:20:01 enggletalk.com.tw CRON[720685]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:20:01 enggletalk.com.tw CRON[720686]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 20 14:20:01 enggletalk.com.tw CRON[720681]: pam_unix(cron:session): session closed for user root
+Dec 20 14:20:02 enggletalk.com.tw CRON[720683]: pam_unix(cron:session): session closed for user root
+Dec 20 14:20:02 enggletalk.com.tw CRON[720682]: pam_unix(cron:session): session closed for user root
+Dec 20 14:20:27 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.49.134 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=63584 PROTO=TCP SPT=45313 DPT=9869 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:20:27 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=40113 PROTO=TCP SPT=48500 DPT=58558 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:20:29 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=193.57.40.49 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=243 ID=16060 PROTO=TCP SPT=55619 DPT=10001 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:20:40 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=167.94.146.20 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=32 ID=6948 PROTO=TCP SPT=32708 DPT=22222 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:21:01 enggletalk.com.tw CRON[720789]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:21:01 enggletalk.com.tw CRON[720790]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:21:01 enggletalk.com.tw CRON[720791]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:21:01 enggletalk.com.tw CRON[720792]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:21:01 enggletalk.com.tw CRON[720789]: pam_unix(cron:session): session closed for user root
+Dec 20 14:21:01 enggletalk.com.tw CRON[720790]: pam_unix(cron:session): session closed for user root
+Dec 20 14:21:09 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=185.201.65.95 DST=97.74.92.111 LEN=96 TOS=0x00 PREC=0x00 TTL=46 ID=58443 DF PROTO=UDP SPT=6881 DPT=5353 LEN=76 [0m
+Dec 20 14:21:23 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=110.7.52.148 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=47 ID=40677 PROTO=TCP SPT=48585 DPT=23 WINDOW=16681 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:21:44 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=38169 PROTO=TCP SPT=48500 DPT=52945 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:22:01 enggletalk.com.tw CRON[720903]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:22:01 enggletalk.com.tw CRON[720902]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:22:01 enggletalk.com.tw CRON[720904]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:22:01 enggletalk.com.tw CRON[720905]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:22:02 enggletalk.com.tw CRON[720902]: pam_unix(cron:session): session closed for user root
+Dec 20 14:22:02 enggletalk.com.tw CRON[720903]: pam_unix(cron:session): session closed for user root
+Dec 20 14:22:02 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.165.184 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=40503 PROTO=TCP SPT=45398 DPT=14822 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:22:20 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=57129 PROTO=TCP SPT=48500 DPT=17640 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:22:41 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=167.94.146.25 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=32 ID=36121 PROTO=TCP SPT=39794 DPT=52200 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:23:01 enggletalk.com.tw CRON[720941]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:23:01 enggletalk.com.tw CRON[720940]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:23:01 enggletalk.com.tw CRON[720942]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:23:01 enggletalk.com.tw CRON[720943]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:23:01 enggletalk.com.tw CRON[720940]: pam_unix(cron:session): session closed for user root
+Dec 20 14:23:01 enggletalk.com.tw CRON[720941]: pam_unix(cron:session): session closed for user root
+Dec 20 14:23:14 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.165.186 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=64724 PROTO=TCP SPT=45389 DPT=13584 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:23:35 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=157.230.41.201 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=386 PROTO=TCP SPT=60000 DPT=2566 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:23:45 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=118.200.45.192 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=45 ID=13599 PROTO=TCP SPT=31832 DPT=15543 WINDOW=6225 RES=0x00 ACK URGP=0 [0m
+Dec 20 14:24:00 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=14.225.252.51 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=50 ID=22996 PROTO=TCP SPT=64631 DPT=23 WINDOW=7055 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:24:01 enggletalk.com.tw CRON[720967]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:24:01 enggletalk.com.tw CRON[720968]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:24:01 enggletalk.com.tw CRON[720969]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:24:01 enggletalk.com.tw CRON[720970]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:24:01 enggletalk.com.tw CRON[720967]: pam_unix(cron:session): session closed for user root
+Dec 20 14:24:01 enggletalk.com.tw CRON[720968]: pam_unix(cron:session): session closed for user root
+Dec 20 14:25:01 enggletalk.com.tw CRON[721006]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:25:01 enggletalk.com.tw CRON[721007]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:25:01 enggletalk.com.tw CRON[721005]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:25:01 enggletalk.com.tw CRON[721008]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:25:01 enggletalk.com.tw CRON[721009]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:25:01 enggletalk.com.tw CRON[721010]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 20 14:25:01 enggletalk.com.tw CRON[721005]: pam_unix(cron:session): session closed for user root
+Dec 20 14:25:02 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.165.186 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=45252 PROTO=TCP SPT=45373 DPT=13922 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:25:02 enggletalk.com.tw CRON[721007]: pam_unix(cron:session): session closed for user root
+Dec 20 14:25:02 enggletalk.com.tw CRON[721006]: pam_unix(cron:session): session closed for user root
+Dec 20 14:25:32 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.60.158 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=64986 PROTO=TCP SPT=45278 DPT=2287 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:26:01 enggletalk.com.tw CRON[721112]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:26:01 enggletalk.com.tw CRON[721111]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:26:01 enggletalk.com.tw CRON[721113]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:26:01 enggletalk.com.tw CRON[721114]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:26:02 enggletalk.com.tw CRON[721111]: pam_unix(cron:session): session closed for user root
+Dec 20 14:26:02 enggletalk.com.tw CRON[721112]: pam_unix(cron:session): session closed for user root
+Dec 20 14:26:06 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=25986 PROTO=TCP SPT=48500 DPT=30883 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:26:35 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=45.142.182.91 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=236 ID=56666 PROTO=TCP SPT=46094 DPT=30000 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:26:53 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.163.110 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=12552 PROTO=TCP SPT=45457 DPT=18974 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:27:01 enggletalk.com.tw CRON[721136]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:27:01 enggletalk.com.tw CRON[721135]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:27:01 enggletalk.com.tw CRON[721137]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:27:01 enggletalk.com.tw CRON[721138]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:27:01 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.60.154 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=42334 PROTO=TCP SPT=45180 DPT=152 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:27:01 enggletalk.com.tw CRON[721135]: pam_unix(cron:session): session closed for user root
+Dec 20 14:27:01 enggletalk.com.tw CRON[721136]: pam_unix(cron:session): session closed for user root
+Dec 20 14:27:11 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.165.187 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=48000 PROTO=TCP SPT=45440 DPT=16972 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:27:14 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=167.248.133.172 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=34 ID=13548 PROTO=TCP SPT=53387 DPT=5671 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:27:44 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=92.63.197.224 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=30323 PROTO=TCP SPT=53252 DPT=5915 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:27:49 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=43.130.10.173 DST=97.74.92.111 LEN=52 TOS=0x00 PREC=0x00 TTL=47 ID=45205 DF PROTO=TCP SPT=46229 DPT=8110 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:28:00 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.62.82 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=25476 PROTO=TCP SPT=40953 DPT=135 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:28:01 enggletalk.com.tw CRON[721166]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:28:01 enggletalk.com.tw CRON[721165]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:28:01 enggletalk.com.tw CRON[721167]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:28:01 enggletalk.com.tw CRON[721168]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:28:01 enggletalk.com.tw CRON[721165]: pam_unix(cron:session): session closed for user root
+Dec 20 14:28:01 enggletalk.com.tw CRON[721166]: pam_unix(cron:session): session closed for user root
+Dec 20 14:28:04 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.165.186 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=14200 PROTO=TCP SPT=45389 DPT=12140 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:28:20 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.49.158 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=23442 PROTO=TCP SPT=45346 DPT=11128 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:28:32 enggletalk.com.tw sudo[721186]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/sbin/service apache2 restart[0m
+Dec 20 14:28:32 enggletalk.com.tw sudo[721186]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Dec 20 14:28:32 enggletalk.com.tw systemd[1]: Stopping The Apache HTTP Server...
+-- Subject: A stop job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 107378.
+Dec 20 14:28:32 enggletalk.com.tw systemd[1]: apache2.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apache2.service has successfully entered the 'dead' state.
+Dec 20 14:28:32 enggletalk.com.tw systemd[1]: Stopped The Apache HTTP Server.
+-- Subject: A stop job for unit apache2.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has finished.
+-- 
+-- The job identifier is 107378 and the job result is done.
+Dec 20 14:28:32 enggletalk.com.tw systemd[1]: Starting The Apache HTTP Server...
+-- Subject: A start job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 107378.
+Dec 20 14:28:32 enggletalk.com.tw systemd[1]: Started The Apache HTTP Server.
+-- Subject: A start job for unit apache2.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has finished successfully.
+-- 
+-- The job identifier is 107378.
+Dec 20 14:28:32 enggletalk.com.tw sudo[721186]: pam_unix(sudo:session): session closed for user root
+Dec 20 14:28:41 enggletalk.com.tw sudo[721225]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/systemctl restart lsws[0m
+Dec 20 14:28:41 enggletalk.com.tw sudo[721225]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Dec 20 14:28:41 enggletalk.com.tw sudo[721225]: pam_unix(sudo:session): session closed for user root
+Dec 20 14:28:52 enggletalk.com.tw sudo[721228]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/systemctl restart caddy[0m
+Dec 20 14:28:52 enggletalk.com.tw sudo[721228]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Dec 20 14:28:52 enggletalk.com.tw sudo[721228]: pam_unix(sudo:session): session closed for user root
+Dec 20 14:29:01 enggletalk.com.tw CRON[721238]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:29:01 enggletalk.com.tw CRON[721237]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:29:01 enggletalk.com.tw CRON[721239]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:29:01 enggletalk.com.tw CRON[721240]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:29:01 enggletalk.com.tw CRON[721237]: pam_unix(cron:session): session closed for user root
+Dec 20 14:29:01 enggletalk.com.tw CRON[721238]: pam_unix(cron:session): session closed for user root
+Dec 20 14:29:12 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.165.187 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=10270 PROTO=TCP SPT=45424 DPT=17832 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:29:17 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=64253 PROTO=TCP SPT=48500 DPT=12163 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:29:19 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.49.134 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=63333 PROTO=TCP SPT=45329 DPT=9435 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:29:38 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.165.184 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=41706 PROTO=TCP SPT=45414 DPT=15773 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:30:01 enggletalk.com.tw CRON[721266]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:30:01 enggletalk.com.tw CRON[721265]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:30:01 enggletalk.com.tw CRON[721267]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:30:01 enggletalk.com.tw CRON[721268]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 20 14:30:01 enggletalk.com.tw CRON[721269]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:30:01 enggletalk.com.tw CRON[721270]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:30:01 enggletalk.com.tw CRON[721265]: pam_unix(cron:session): session closed for user root
+Dec 20 14:30:02 enggletalk.com.tw CRON[721267]: pam_unix(cron:session): session closed for user root
+Dec 20 14:30:02 enggletalk.com.tw CRON[721266]: pam_unix(cron:session): session closed for user root
+Dec 20 14:30:10 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=212.70.149.154 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=59452 DPT=48467 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:30:30 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=179.43.133.210 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=238 ID=40365 PROTO=TCP SPT=51560 DPT=4010 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:30:38 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=167.94.145.24 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=38 ID=43944 PROTO=TCP SPT=38950 DPT=6699 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:30:45 enggletalk.com.tw sudo[721367]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/sbin/service apache2 restart[0m
+Dec 20 14:30:45 enggletalk.com.tw sudo[721367]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Dec 20 14:30:45 enggletalk.com.tw systemd[1]: Stopping The Apache HTTP Server...
+-- Subject: A stop job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 107450.
+Dec 20 14:30:45 enggletalk.com.tw systemd[1]: apache2.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apache2.service has successfully entered the 'dead' state.
+Dec 20 14:30:45 enggletalk.com.tw systemd[1]: Stopped The Apache HTTP Server.
+-- Subject: A stop job for unit apache2.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has finished.
+-- 
+-- The job identifier is 107450 and the job result is done.
+Dec 20 14:30:45 enggletalk.com.tw systemd[1]: Starting The Apache HTTP Server...
+-- Subject: A start job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 107450.
+Dec 20 14:30:45 enggletalk.com.tw systemd[1]: Started The Apache HTTP Server.
+-- Subject: A start job for unit apache2.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has finished successfully.
+-- 
+-- The job identifier is 107450.
+Dec 20 14:30:45 enggletalk.com.tw sudo[721367]: pam_unix(sudo:session): session closed for user root
+Dec 20 14:31:01 enggletalk.com.tw CRON[721412]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:31:01 enggletalk.com.tw CRON[721411]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:31:01 enggletalk.com.tw CRON[721413]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:31:01 enggletalk.com.tw CRON[721414]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:31:01 enggletalk.com.tw CRON[721411]: pam_unix(cron:session): session closed for user root
+Dec 20 14:31:01 enggletalk.com.tw CRON[721412]: pam_unix(cron:session): session closed for user root
+Dec 20 14:31:11 enggletalk.com.tw sshd[721428]: [0;1;31m[0;1;39m[0;1;31merror: kex_exchange_identification: Connection closed by remote host[0m
+Dec 20 14:31:30 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=92.63.197.88 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=65449 PROTO=TCP SPT=54827 DPT=9676 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:31:49 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=198.199.112.41 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=237 ID=54321 PROTO=TCP SPT=49434 DPT=18245 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:31:51 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=109.205.213.99 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=239 ID=55590 PROTO=TCP SPT=59245 DPT=2549 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:32:01 enggletalk.com.tw CRON[721440]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:32:01 enggletalk.com.tw CRON[721439]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:32:01 enggletalk.com.tw CRON[721441]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:32:01 enggletalk.com.tw CRON[721442]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:32:01 enggletalk.com.tw CRON[721439]: pam_unix(cron:session): session closed for user root
+Dec 20 14:32:01 enggletalk.com.tw CRON[721440]: pam_unix(cron:session): session closed for user root
+Dec 20 14:32:06 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=41107 PROTO=TCP SPT=48500 DPT=352 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:32:24 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.165.186 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=60494 PROTO=TCP SPT=45373 DPT=12022 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:32:39 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.239.218.209 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=38 ID=3800 PROTO=TCP SPT=32260 DPT=23 WINDOW=20242 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:33:01 enggletalk.com.tw CRON[721463]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:33:01 enggletalk.com.tw CRON[721464]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:33:01 enggletalk.com.tw CRON[721465]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:33:01 enggletalk.com.tw CRON[721466]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:33:02 enggletalk.com.tw CRON[721463]: pam_unix(cron:session): session closed for user root
+Dec 20 14:33:02 enggletalk.com.tw CRON[721464]: pam_unix(cron:session): session closed for user root
+Dec 20 14:33:08 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=162.142.125.233 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=34 ID=14934 PROTO=TCP SPT=15466 DPT=16895 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:33:17 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=223.15.52.169 DST=97.74.92.111 LEN=60 TOS=0x00 PREC=0x00 TTL=46 ID=61983 DF PROTO=TCP SPT=54104 DPT=23 WINDOW=29040 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:33:42 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=152.89.198.85 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=23085 PROTO=TCP SPT=50240 DPT=3969 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:33:55 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=94.156.71.68 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=242 ID=64778 PROTO=TCP SPT=42561 DPT=27017 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:34:01 enggletalk.com.tw CRON[721489]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:34:01 enggletalk.com.tw CRON[721488]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:34:01 enggletalk.com.tw CRON[721490]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:34:01 enggletalk.com.tw CRON[721491]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:34:01 enggletalk.com.tw CRON[721488]: pam_unix(cron:session): session closed for user root
+Dec 20 14:34:01 enggletalk.com.tw sshd[721486]: Accepted publickey for root from 36.227.47.105 port 50650 ssh2: RSA SHA256:J3sJ08aOj69gWx6jSZbUsr0HZ4NAMvWUF6+b84/dOX0
+Dec 20 14:34:01 enggletalk.com.tw sshd[721486]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 20 14:34:01 enggletalk.com.tw systemd[1]: Started Session 19255 of user root.
+-- Subject: A start job for unit session-19255.scope has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit session-19255.scope has finished successfully.
+-- 
+-- The job identifier is 107522.
+Dec 20 14:34:01 enggletalk.com.tw systemd-logind[588]: New session 19255 of user root.
+-- Subject: A new session 19255 has been created for user root
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 19255 has been created for the user root.
+-- 
+-- The leading process of the session is 721486.
+Dec 20 14:34:01 enggletalk.com.tw CRON[721489]: pam_unix(cron:session): session closed for user root
+Dec 20 14:34:17 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=192.241.232.21 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=235 ID=54321 PROTO=TCP SPT=35579 DPT=10024 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:34:33 enggletalk.com.tw sshd[721541]: Accepted publickey for root from 36.227.47.105 port 50787 ssh2: RSA SHA256:J3sJ08aOj69gWx6jSZbUsr0HZ4NAMvWUF6+b84/dOX0
+Dec 20 14:34:33 enggletalk.com.tw sshd[721541]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 20 14:34:33 enggletalk.com.tw systemd[1]: Started Session 19256 of user root.
+-- Subject: A start job for unit session-19256.scope has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit session-19256.scope has finished successfully.
+-- 
+-- The job identifier is 107598.
+Dec 20 14:34:33 enggletalk.com.tw systemd-logind[588]: New session 19256 of user root.
+-- Subject: A new session 19256 has been created for user root
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 19256 has been created for the user root.
+-- 
+-- The leading process of the session is 721541.
+Dec 20 14:34:36 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=92.63.197.224 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=1144 PROTO=TCP SPT=53252 DPT=12969 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:35:01 enggletalk.com.tw CRON[721590]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:35:01 enggletalk.com.tw CRON[721589]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:35:01 enggletalk.com.tw CRON[721588]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:35:01 enggletalk.com.tw CRON[721591]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:35:01 enggletalk.com.tw CRON[721592]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:35:01 enggletalk.com.tw CRON[721593]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 20 14:35:01 enggletalk.com.tw CRON[721588]: pam_unix(cron:session): session closed for user root
+Dec 20 14:35:01 enggletalk.com.tw CRON[721590]: pam_unix(cron:session): session closed for user root
+Dec 20 14:35:01 enggletalk.com.tw CRON[721589]: pam_unix(cron:session): session closed for user root
+Dec 20 14:35:14 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=91.92.244.111 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=34351 PROTO=TCP SPT=45931 DPT=3399 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:35:37 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=45.143.200.46 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=53963 PROTO=TCP SPT=48546 DPT=36843 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:35:37 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=23350 PROTO=TCP SPT=48500 DPT=64225 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:35:39 enggletalk.com.tw sshd[721541]: pam_unix(sshd:session): session closed for user root
+Dec 20 14:35:39 enggletalk.com.tw sshd[721541]: [0;1;31m[0;1;39m[0;1;31mpam_systemd(sshd:session): Failed to release session: Interrupted system call[0m
+Dec 20 14:35:39 enggletalk.com.tw systemd[1]: session-19256.scope: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit session-19256.scope has successfully entered the 'dead' state.
+Dec 20 14:35:39 enggletalk.com.tw systemd-logind[588]: Session 19256 logged out. Waiting for processes to exit.
+Dec 20 14:35:39 enggletalk.com.tw systemd-logind[588]: Removed session 19256.
+-- Subject: Session 19256 has been terminated
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A session with the ID 19256 has been terminated.
+Dec 20 14:36:01 enggletalk.com.tw CRON[721711]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:36:01 enggletalk.com.tw CRON[721710]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:36:01 enggletalk.com.tw CRON[721712]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:36:01 enggletalk.com.tw CRON[721713]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:36:02 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=60.164.134.55 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=237 ID=8511 PROTO=TCP SPT=44642 DPT=2375 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:36:02 enggletalk.com.tw CRON[721710]: pam_unix(cron:session): session closed for user root
+Dec 20 14:36:02 enggletalk.com.tw CRON[721711]: pam_unix(cron:session): session closed for user root
+Dec 20 14:36:23 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.60.154 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=58112 PROTO=TCP SPT=45196 DPT=1002 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:36:52 enggletalk.com.tw sudo[721727]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/sbin/service apache2 restart[0m
+Dec 20 14:36:52 enggletalk.com.tw sudo[721727]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Dec 20 14:36:52 enggletalk.com.tw systemd[1]: Stopping The Apache HTTP Server...
+-- Subject: A stop job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 107674.
+Dec 20 14:36:52 enggletalk.com.tw systemd[1]: apache2.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apache2.service has successfully entered the 'dead' state.
+Dec 20 14:36:52 enggletalk.com.tw systemd[1]: Stopped The Apache HTTP Server.
+-- Subject: A stop job for unit apache2.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has finished.
+-- 
+-- The job identifier is 107674 and the job result is done.
+Dec 20 14:36:52 enggletalk.com.tw systemd[1]: Starting The Apache HTTP Server...
+-- Subject: A start job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 107674.
+Dec 20 14:36:52 enggletalk.com.tw systemd[1]: Started The Apache HTTP Server.
+-- Subject: A start job for unit apache2.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has finished successfully.
+-- 
+-- The job identifier is 107674.
+Dec 20 14:36:52 enggletalk.com.tw sudo[721727]: pam_unix(sudo:session): session closed for user root
+Dec 20 14:36:54 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=212.70.149.138 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=57125 DPT=23101 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:36:56 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=157.230.249.197 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=238 ID=29544 PROTO=TCP SPT=42780 DPT=2375 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:37:01 enggletalk.com.tw CRON[721774]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:37:01 enggletalk.com.tw CRON[721775]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:37:01 enggletalk.com.tw CRON[721776]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:37:01 enggletalk.com.tw CRON[721777]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:37:01 enggletalk.com.tw CRON[721774]: pam_unix(cron:session): session closed for user root
+Dec 20 14:37:01 enggletalk.com.tw CRON[721775]: pam_unix(cron:session): session closed for user root
+Dec 20 14:37:16 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=56245 PROTO=TCP SPT=48500 DPT=49863 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:37:39 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.60.158 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=62916 PROTO=TCP SPT=45278 DPT=3793 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:38:00 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=91.205.229.34 DST=97.74.92.111 LEN=54 TOS=0x00 PREC=0x00 TTL=48 ID=57360 DF PROTO=UDP SPT=48185 DPT=6881 LEN=34 [0m
+Dec 20 14:38:01 enggletalk.com.tw CRON[721798]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:38:01 enggletalk.com.tw CRON[721797]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:38:01 enggletalk.com.tw CRON[721799]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:38:01 enggletalk.com.tw CRON[721800]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:38:01 enggletalk.com.tw CRON[721797]: pam_unix(cron:session): session closed for user root
+Dec 20 14:38:01 enggletalk.com.tw CRON[721798]: pam_unix(cron:session): session closed for user root
+Dec 20 14:38:33 enggletalk.com.tw sshd[721815]: Accepted publickey for root from 36.227.47.105 port 51780 ssh2: RSA SHA256:J3sJ08aOj69gWx6jSZbUsr0HZ4NAMvWUF6+b84/dOX0
+Dec 20 14:38:33 enggletalk.com.tw sshd[721815]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 20 14:38:33 enggletalk.com.tw systemd[1]: Started Session 19266 of user root.
+-- Subject: A start job for unit session-19266.scope has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit session-19266.scope has finished successfully.
+-- 
+-- The job identifier is 107746.
+Dec 20 14:38:33 enggletalk.com.tw systemd-logind[588]: New session 19266 of user root.
+-- Subject: A new session 19266 has been created for user root
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 19266 has been created for the user root.
+-- 
+-- The leading process of the session is 721815.
+Dec 20 14:38:34 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.56 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=19238 PROTO=TCP SPT=48500 DPT=32711 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:38:52 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=92.63.197.224 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=13229 PROTO=TCP SPT=53252 DPT=16795 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:39:01 enggletalk.com.tw CRON[721860]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:39:01 enggletalk.com.tw CRON[721861]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:39:01 enggletalk.com.tw CRON[721859]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:39:01 enggletalk.com.tw CRON[721862]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:39:01 enggletalk.com.tw CRON[721863]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:39:01 enggletalk.com.tw CRON[721864]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Dec 20 14:39:01 enggletalk.com.tw CRON[721859]: pam_unix(cron:session): session closed for user root
+Dec 20 14:39:01 enggletalk.com.tw CRON[721860]: pam_unix(cron:session): session closed for user root
+Dec 20 14:39:01 enggletalk.com.tw CRON[721861]: pam_unix(cron:session): session closed for user root
+Dec 20 14:39:07 enggletalk.com.tw systemd[1]: Starting Clean php session files...
+-- Subject: A start job for unit phpsessionclean.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit phpsessionclean.service has begun execution.
+-- 
+-- The job identifier is 107822.
+Dec 20 14:39:07 enggletalk.com.tw systemd[1]: phpsessionclean.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit phpsessionclean.service has successfully entered the 'dead' state.
+Dec 20 14:39:07 enggletalk.com.tw systemd[1]: Finished Clean php session files.
+-- Subject: A start job for unit phpsessionclean.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit phpsessionclean.service has finished successfully.
+-- 
+-- The job identifier is 107822.
+Dec 20 14:39:34 enggletalk.com.tw sshd[721815]: pam_unix(sshd:session): session closed for user root
+Dec 20 14:39:34 enggletalk.com.tw systemd[1]: session-19266.scope: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit session-19266.scope has successfully entered the 'dead' state.
+Dec 20 14:39:34 enggletalk.com.tw systemd-logind[588]: Session 19266 logged out. Waiting for processes to exit.
+Dec 20 14:39:34 enggletalk.com.tw systemd-logind[588]: Removed session 19266.
+-- Subject: Session 19266 has been terminated
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A session with the ID 19266 has been terminated.
+Dec 20 14:39:55 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=77.90.185.154 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=11564 PROTO=TCP SPT=41858 DPT=30389 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:40:01 enggletalk.com.tw CRON[721983]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:40:01 enggletalk.com.tw CRON[721982]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:40:01 enggletalk.com.tw CRON[721984]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:40:01 enggletalk.com.tw CRON[721985]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:40:01 enggletalk.com.tw CRON[721986]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:40:01 enggletalk.com.tw CRON[721987]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 20 14:40:01 enggletalk.com.tw CRON[721982]: pam_unix(cron:session): session closed for user root
+Dec 20 14:40:01 enggletalk.com.tw CRON[721984]: pam_unix(cron:session): session closed for user root
+Dec 20 14:40:02 enggletalk.com.tw CRON[721983]: pam_unix(cron:session): session closed for user root
+Dec 20 14:40:03 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.163.142 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=56358 PROTO=TCP SPT=50681 DPT=8090 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:40:18 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=94.156.71.63 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=242 ID=53013 PROTO=TCP SPT=43018 DPT=5432 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:40:30 enggletalk.com.tw systemd[1]: fwupd.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit fwupd.service has successfully entered the 'dead' state.
+Dec 20 14:40:39 enggletalk.com.tw sshd[722099]: Accepted publickey for root from 36.227.47.105 port 52244 ssh2: RSA SHA256:J3sJ08aOj69gWx6jSZbUsr0HZ4NAMvWUF6+b84/dOX0
+Dec 20 14:40:39 enggletalk.com.tw sshd[722099]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 20 14:40:39 enggletalk.com.tw systemd[1]: Started Session 19273 of user root.
+-- Subject: A start job for unit session-19273.scope has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit session-19273.scope has finished successfully.
+-- 
+-- The job identifier is 107894.
+Dec 20 14:40:39 enggletalk.com.tw systemd-logind[588]: New session 19273 of user root.
+-- Subject: A new session 19273 has been created for user root
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 19273 has been created for the user root.
+-- 
+-- The leading process of the session is 722099.
+Dec 20 14:40:42 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=167.248.133.137 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=34 ID=24425 PROTO=TCP SPT=13564 DPT=16536 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:40:51 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=80.66.83.146 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=11915 PROTO=TCP SPT=54778 DPT=4397 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:41:01 enggletalk.com.tw CRON[722144]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:41:01 enggletalk.com.tw CRON[722143]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:41:01 enggletalk.com.tw CRON[722145]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:41:01 enggletalk.com.tw CRON[722146]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:41:01 enggletalk.com.tw CRON[722143]: pam_unix(cron:session): session closed for user root
+Dec 20 14:41:01 enggletalk.com.tw CRON[722144]: pam_unix(cron:session): session closed for user root
+Dec 20 14:41:08 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.49.158 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=34745 PROTO=TCP SPT=45346 DPT=11446 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:41:18 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=92.63.197.89 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=10068 PROTO=TCP SPT=51685 DPT=63678 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:41:30 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=92.63.197.89 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=3308 PROTO=TCP SPT=51685 DPT=62095 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:41:40 enggletalk.com.tw sshd[722099]: pam_unix(sshd:session): session closed for user root
+Dec 20 14:41:40 enggletalk.com.tw sshd[722099]: [0;1;31m[0;1;39m[0;1;31mpam_systemd(sshd:session): Failed to release session: Interrupted system call[0m
+Dec 20 14:41:40 enggletalk.com.tw systemd[1]: session-19273.scope: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit session-19273.scope has successfully entered the 'dead' state.
+Dec 20 14:41:40 enggletalk.com.tw systemd-logind[588]: Session 19273 logged out. Waiting for processes to exit.
+Dec 20 14:41:40 enggletalk.com.tw systemd-logind[588]: Removed session 19273.
+-- Subject: Session 19273 has been terminated
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A session with the ID 19273 has been terminated.
+Dec 20 14:41:56 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=34.151.80.105 DST=97.74.92.111 LEN=40 TOS=0x00 PREC=0x00 TTL=246 ID=55118 PROTO=TCP SPT=45432 DPT=990 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:42:01 enggletalk.com.tw CRON[722184]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:42:01 enggletalk.com.tw CRON[722183]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:42:01 enggletalk.com.tw CRON[722185]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:42:01 enggletalk.com.tw CRON[722186]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:42:01 enggletalk.com.tw CRON[722183]: pam_unix(cron:session): session closed for user root
+Dec 20 14:42:01 enggletalk.com.tw CRON[722184]: pam_unix(cron:session): session closed for user root
+Dec 20 14:42:02 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.163.110 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=47050 PROTO=TCP SPT=45457 DPT=19848 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:42:13 enggletalk.com.tw sshd[722200]: Accepted publickey for root from 36.227.47.105 port 52681 ssh2: RSA SHA256:J3sJ08aOj69gWx6jSZbUsr0HZ4NAMvWUF6+b84/dOX0
+Dec 20 14:42:13 enggletalk.com.tw sshd[722200]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 20 14:42:13 enggletalk.com.tw systemd[1]: Started Session 19278 of user root.
+-- Subject: A start job for unit session-19278.scope has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit session-19278.scope has finished successfully.
+-- 
+-- The job identifier is 107970.
+Dec 20 14:42:13 enggletalk.com.tw systemd-logind[588]: New session 19278 of user root.
+-- Subject: A new session 19278 has been created for user root
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 19278 has been created for the user root.
+-- 
+-- The leading process of the session is 722200.
+Dec 20 14:42:16 enggletalk.com.tw sudo[722238]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/sbin/service apache2 restart[0m
+Dec 20 14:42:16 enggletalk.com.tw sudo[722238]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Dec 20 14:42:16 enggletalk.com.tw systemd[1]: Stopping The Apache HTTP Server...
+-- Subject: A stop job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 108046.
+Dec 20 14:42:16 enggletalk.com.tw apachectl[722246]: AH00526: Syntax error on line 16 of /etc/apache2/sites-enabled/000-default.conf:
+Dec 20 14:42:16 enggletalk.com.tw apachectl[722246]: Invalid command 'Header', perhaps misspelled or defined by a module not included in the server configuration
+Dec 20 14:42:16 enggletalk.com.tw apachectl[722244]: Action 'stop' failed.
+Dec 20 14:42:16 enggletalk.com.tw apachectl[722244]: The Apache error log may have more information.
+Dec 20 14:42:16 enggletalk.com.tw systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStop= process belonging to unit apache2.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Dec 20 14:42:16 enggletalk.com.tw systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mapache2.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apache2.service has entered the 'failed' state with result 'exit-code'.
+Dec 20 14:42:16 enggletalk.com.tw systemd[1]: Stopped The Apache HTTP Server.
+-- Subject: A stop job for unit apache2.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has finished.
+-- 
+-- The job identifier is 108046 and the job result is done.
+Dec 20 14:42:16 enggletalk.com.tw systemd[1]: Starting The Apache HTTP Server...
+-- Subject: A start job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 108046.
+Dec 20 14:42:16 enggletalk.com.tw apachectl[722253]: AH00526: Syntax error on line 16 of /etc/apache2/sites-enabled/000-default.conf:
+Dec 20 14:42:16 enggletalk.com.tw apachectl[722253]: Invalid command 'Header', perhaps misspelled or defined by a module not included in the server configuration
+Dec 20 14:42:16 enggletalk.com.tw apachectl[722249]: Action 'start' failed.
+Dec 20 14:42:16 enggletalk.com.tw apachectl[722249]: The Apache error log may have more information.
+Dec 20 14:42:16 enggletalk.com.tw systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit apache2.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Dec 20 14:42:16 enggletalk.com.tw sudo[722238]: pam_unix(sudo:session): session closed for user root
+Dec 20 14:42:16 enggletalk.com.tw systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mapache2.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apache2.service has entered the 'failed' state with result 'exit-code'.
+Dec 20 14:42:16 enggletalk.com.tw systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start The Apache HTTP Server.[0m
+-- Subject: A start job for unit apache2.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has finished with a failure.
+-- 
+-- The job identifier is 108046 and the job result is failed.
+Dec 20 14:42:38 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=89.248.165.184 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=241 ID=56072 PROTO=TCP SPT=45414 DPT=15019 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:42:40 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.60.154 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=26681 PROTO=TCP SPT=45196 DPT=30 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:43:01 enggletalk.com.tw CRON[722263]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:43:01 enggletalk.com.tw CRON[722262]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:43:01 enggletalk.com.tw CRON[722264]: (root) CMD (/usr/local/ispconfig/server/server.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:43:01 enggletalk.com.tw CRON[722265]: (root) CMD (/usr/local/ispconfig/server/cron.sh 2>&1 | while read line; do echo `/bin/date` "$line" >> /var/log/ispconfig/cron.log; done)
+Dec 20 14:43:01 enggletalk.com.tw CRON[722262]: pam_unix(cron:session): session closed for user root
+Dec 20 14:43:01 enggletalk.com.tw CRON[722263]: pam_unix(cron:session): session closed for user root
+Dec 20 14:43:05 enggletalk.com.tw kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=52:54:1c:33:f7:74:fe:54:1c:33:f7:74:08:00 SRC=79.124.60.138 DST=97.74.92.111 LEN=44 TOS=0x00 PREC=0x00 TTL=243 ID=60433 PROTO=TCP SPT=45248 DPT=4996 WINDOW=1025 RES=0x00 SYN URGP=0 [0m
+Dec 20 14:43:15 enggletalk.com.tw sudo[722279]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/sbin/service apache2 restart[0m
+Dec 20 14:43:15 enggletalk.com.tw sudo[722279]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Dec 20 14:43:15 enggletalk.com.tw systemd[1]: Starting The Apache HTTP Server...
+-- Subject: A start job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 108118.
+Dec 20 14:43:15 enggletalk.com.tw apachectl[722298]: AH00526: Syntax error on line 16 of /etc/apache2/sites-enabled/000-default.conf:
+Dec 20 14:43:15 enggletalk.com.tw apachectl[722298]: Invalid command 'Header', perhaps misspelled or defined by a module not included in the server configuration
+Dec 20 14:43:15 enggletalk.com.tw apachectl[722285]: Action 'start' failed.
+Dec 20 14:43:15 enggletalk.com.tw apachectl[722285]: The Apache error log may have more information.
+Dec 20 14:43:15 enggletalk.com.tw systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit apache2.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Dec 20 14:43:15 enggletalk.com.tw sudo[722279]: pam_unix(sudo:session): session closed for user root
+Dec 20 14:43:15 enggletalk.com.tw systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mapache2.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apache2.service has entered the 'failed' state with result 'exit-code'.
+Dec 20 14:43:15 enggletalk.com.tw systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start The Apache HTTP Server.[0m
+-- Subject: A start job for unit apache2.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has finished with a failure.
+-- 
+-- The job identifier is 108118 and the job result is failed.
+Dec 20 14:43:27 enggletalk.com.tw sudo[722307]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/cat /var/log/apache2/error.log[0m
+Dec 20 14:43:27 enggletalk.com.tw sudo[722307]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Dec 20 14:43:27 enggletalk.com.tw sudo[722307]: pam_unix(sudo:session): session closed for user root

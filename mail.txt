@@ -1,0 +1,3 @@
+mail._domainkey	IN	TXT	( "v=DKIM1; h=sha256; k=rsa; s=email; "
+	  "p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt0E4VTUrtjubGaLi3Qak2iB2xXAW54RIh5swB5Rl1yHa7flr9jQayWWSK9k+XxfTXnR4WH9MI5UvQdhKDtibEBqlABoZc3Tr6Bv/c23UoclcUPJNr03HnQgqv887u3IOYrSITkZjAqOsovUb22B85h3XcL7pOn2MltjTdW6rL8uFg1MPN6jVDz3943sdjozb9uGOx/Vf6nmgbw"
+	  "V3dq08894d+6FmtTfeOxUnED77iCSOERt8gMTwqKFlHgRMaX4m6EOXHCoQ9Gx1iWvugikgHUxU+tps0DNa7TCh0sdaT5a15NZmJ6+Mg9x3iH5l0ZwrAywdRuFRfDNuyxyJcFzExQIDAQAB" )  ; ----- DKIM key mail for enggletalk.com.tw

@@ -1,0 +1,81 @@
+[90m= [39m[
+    {#7441
+      +"[1mTables_in_mentor_database[22m": "[32mblogs[39m",
+    },
+    {#7443
+      +"[1mTables_in_mentor_database[22m": "[32mbookings[39m",
+    },
+    {#7444
+      +"[1mTables_in_mentor_database[22m": "[32mchat_rooms[39m",
+    },
+    {#7445
+      +"[1mTables_in_mentor_database[22m": "[32mclass_bookings[39m",
+    },
+    {#7446
+      +"[1mTables_in_mentor_database[22m": "[32mclass_schedules[39m",
+    },
+    {#7447
+      +"[1mTables_in_mentor_database[22m": "[32mcomments[39m",
+    },
+    {#7448
+      +"[1mTables_in_mentor_database[22m": "[32mcourses[39m",
+    },
+    {#7449
+      +"[1mTables_in_mentor_database[22m": "[32mfailed_jobs[39m",
+    },
+    {#7450
+      +"[1mTables_in_mentor_database[22m": "[32mledgers[39m",
+    },
+    {#7451
+      +"[1mTables_in_mentor_database[22m": "[32mmentor_courses[39m",
+    },
+    {#7452
+      +"[1mTables_in_mentor_database[22m": "[32mmessages[39m",
+    },
+    {#7453
+      +"[1mTables_in_mentor_database[22m": "[32mmigrations[39m",
+    },
+    {#7454
+      +"[1mTables_in_mentor_database[22m": "[32moauth_access_tokens[39m",
+    },
+    {#7455
+      +"[1mTables_in_mentor_database[22m": "[32moauth_auth_codes[39m",
+    },
+    {#7456
+      +"[1mTables_in_mentor_database[22m": "[32moauth_clients[39m",
+    },
+    {#7457
+      +"[1mTables_in_mentor_database[22m": "[32moauth_personal_access_clients[39m",
+    },
+    {#7458
+      +"[1mTables_in_mentor_database[22m": "[32moauth_refresh_tokens[39m",
+    },
+    {#7459
+      +"[1mTables_in_mentor_database[22m": "[32morder_plans[39m",
+    },
+    {#7460
+      +"[1mTables_in_mentor_database[22m": "[32morders[39m",
+    },
+    {#7461
+      +"[1mTables_in_mentor_database[22m": "[32mpassword_resets[39m",
+    },
+    {#7462
+      +"[1mTables_in_mentor_database[22m": "[32mpayment_plans[39m",
+    },
+    {#7463
+      +"[1mTables_in_mentor_database[22m": "[32mpersonal_access_tokens[39m",
+    },
+    {#7464
+      +"[1mTables_in_mentor_database[22m": "[32mremittances[39m",
+    },
+    {#7465
+      +"[1mTables_in_mentor_database[22m": "[32mreviews[39m",
+    },
+    {#7466
+      +"[1mTables_in_mentor_database[22m": "[32muser_sessions[39m",
+    },
+    {#7467
+      +"[1mTables_in_mentor_database[22m": "[32musers[39m",
+    },
+  ]
+

@@ -1,0 +1,27 @@
+[0;1;32m●[0m apache2.service - The Apache HTTP Server
+     Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Sat 2024-09-07 09:38:44 UTC; 7s ago
+       Docs: https://httpd.apache.org/docs/2.4/
+    Process: 22495 ExecStart=/usr/sbin/apachectl start (code=exited, status=0/SUCCESS)
+    Process: 22531 ExecReload=/usr/sbin/apachectl graceful (code=exited, status=0/SUCCESS)
+   Main PID: 22518 (apache2)
+      Tasks: 10 (limit: 2255)
+     Memory: 31.9M
+     CGroup: /system.slice/apache2.service
+             ├─22518 /usr/sbin/apache2 -k start
+             ├─22535 vlogger (access log)
+             ├─22536 vlogger (access log)
+             ├─22537 vlogger (access log)
+             ├─22538 vlogger (access log)
+             ├─22539 /usr/sbin/apache2 -k start
+             ├─22540 /usr/sbin/apache2 -k start
+             ├─22541 /usr/sbin/apache2 -k start
+             ├─22542 /usr/sbin/apache2 -k start
+             └─22543 /usr/sbin/apache2 -k start
+
+Sep 07 09:38:44 enggletalk.com.tw systemd[1]: Starting The Apache HTTP Server...
+Sep 07 09:38:44 enggletalk.com.tw apachectl[22513]: [Sat Sep 07 09:38:44.238055 2024] [alias:warn] [pid 22513] AH00671: The Alias directive in /etc/apache2/sites-enabled/ispconfig.conf at line 77 will probably never match because it overlaps an earlier Alias.
+Sep 07 09:38:44 enggletalk.com.tw systemd[1]: Started The Apache HTTP Server.
+Sep 07 09:38:47 enggletalk.com.tw systemd[1]: Reloading The Apache HTTP Server.
+Sep 07 09:38:47 enggletalk.com.tw apachectl[22534]: [Sat Sep 07 09:38:47.318313 2024] [alias:warn] [pid 22534] AH00671: The Alias directive in /etc/apache2/sites-enabled/ispconfig.conf at line 77 will probably never match because it overlaps an earlier Alias.
+Sep 07 09:38:47 enggletalk.com.tw systemd[1]: Reloaded The Apache HTTP Server.
