@@ -10,6 +10,7 @@ return [
     'subtitle' => 'Để AI cung cấp gợi ý viết tiếng Anh chuyên nghiệp',
     'error_header' => 'Đã xảy ra các lỗi sau:',
     'labels' => [
+        'loading' => 'Đang tải...',
         'write_new' => 'Viết Bài Luận Mới',
         'back_to_list' => 'Trở Về Danh Sách',
         'detailed_feedback' => 'Phản Hồi Chi Tiết',

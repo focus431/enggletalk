@@ -10,6 +10,7 @@ return [
     'subtitle' => 'Let AI provide professional English writing suggestions',
     'error_header' => 'The following errors occurred:',
     'labels' => [
+        'loading' => 'Loading...',
         'write_new' => 'Write New Essay',
         'back_to_list' => 'Back to List',
         'detailed_feedback' => 'Detailed Feedback',

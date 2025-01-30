@@ -10,6 +10,7 @@ return [
     'subtitle' => 'AIが専門的な英語作文アドバイスを提供します',
     'error_header' => '以下のエラーが発生しました：',
     'labels' => [
+        'loading' => '読み込み中...',
         'write_new' => '新規エッセイ作成',
         'back_to_list' => '一覧に戻る',
         'detailed_feedback' => '詳細なフィードバック',

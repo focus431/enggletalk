@@ -10,6 +10,7 @@ return [
     'subtitle' => 'AI가 전문적인 영어 작문 조언을 제공합니다',
     'error_header' => '다음과 같은 오류가 발생했습니다:',
     'labels' => [
+        'loading' => '로드 중...',
         'write_new' => '새 에세이 작성',
         'back_to_list' => '목록으로 돌아가기',
         'detailed_feedback' => '상세 피드백',

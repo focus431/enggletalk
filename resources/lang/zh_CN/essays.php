@@ -10,6 +10,7 @@ return [
     'subtitle' => '让 AI 为您提供专业的英文写作建议',
     'error_header' => '提交时出现以下错误：',
     'labels' => [
+        'loading' => '加载中...',
         'write_new' => '新增作文',
         'back_to_list' => '返回列表',
         'detailed_feedback' => '详细反馈',
